@@ -210,27 +210,165 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 </ul>
 <h3 id="configure-the-algorithm-to-mine">Configure the algorithm to mine</h3>
 <p>There are two ways in lolMiner how to specify the algorithm you want to mine. You need to choose <strong>one</strong> of them to start mining.</p>
-<p>The first option is <strong>–algo (-a)</strong> followed by one of the following algorithm names
-Parameter | Algorithm
-| ————- | ————- |
-| BEAM-I | BeamHash I  |
-| BEAM-II | BeamHash II  |
-| BEAM-III | BeamHash III |
-| C29AE   | Cuckoo 29  |
-| C29D  | CuckarooD 29  |
-| C29M | CuckarooM 29 |
-| C30CTX | Cuckaroo 30 Cortex |
-| C31 | Cuckatoo 31   |
-| C32 | Cuckatoo 32   |
-| CR29-32   | Cuckaroo 29-32  |
-| CR29-40  | Cuckaroo 29-40  |
-| CR29-48 | Cuckaroo 29-48 |
-| EQUI144_5 | Equihash 144/5  |
-| EQUI192_7 | Equihash 192/7  |
-| EQUI210_9 | Equihash 210/9  |
-| ETCHASH | Etchash  |
-| ETHASH | Ethash   |
-| ZEL | ZelHash |</p>
+<p>The first option is <strong>–algo (-a)</strong> followed by one of the following algorithm names</p>
+<table>
+<thead>
+   <tr>
+     <th>Parameter
+     </th>
+<th>Algorithm
+     </th>
+<th> 
+ </th>
+</tr>
+</thead>
+<tbody>
+   <tr>
+     <td> 
+     </td>
+<td>BEAM-I
+     </td>
+<td>BeamHash I
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>BEAM-II
+     </td>
+<td>BeamHash II
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>BEAM-III
+     </td>
+<td>BeamHash III
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>C29AE
+     </td>
+<td>Cuckoo 29
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>C29D
+     </td>
+<td>CuckarooD 29
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>C29M
+     </td>
+<td>CuckarooM 29
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>C30CTX
+     </td>
+<td>Cuckaroo 30 Cortex
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>C31
+     </td>
+<td>Cuckatoo 31
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>C32
+     </td>
+<td>Cuckatoo 32
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>CR29-32
+     </td>
+<td>Cuckaroo 29-32
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>CR29-40
+     </td>
+<td>Cuckaroo 29-40
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>CR29-48
+     </td>
+<td>Cuckaroo 29-48
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>EQUI144_5
+     </td>
+<td>Equihash 144/5
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>EQUI192_7
+     </td>
+<td>Equihash 192/7
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>EQUI210_9
+     </td>
+<td>Equihash 210/9
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>ETCHASH
+     </td>
+<td>Etchash
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>ETHASH
+     </td>
+<td>Ethash
+   </td>
+</tr>
+<tr>
+     <td> 
+     </td>
+<td>ZEL
+     </td>
+<td>ZelHash
+</td>
+</tr>
+</tbody>
+</table>
 <p>Note that you always can call <code class="language-plaintext highlighter-rouge">lolMiner --list-algos</code> to get a list of all supported algorithms as well as the fee height. Also the list will inform you if the algorithms supports / requires the personalization option (–pers) that is required for some of the Equihash algorithms.</p>
 <p>The 2nd way to configure lolMiner is via the parameter <strong>–coin (-c)</strong>. This parameter does set more detailed settings for selected profiles and allows special functions, e.g. algorithm switchers or combination of an algorithm with the right personalization.</p>
 <p>Available entries for –coin are:</p>
