@@ -22,4 +22,10 @@ var store = [{
         "tags": ["lolMiner"],
         "url": "https://lolminer.site/documentation/setup/",
         "teaser": "https://lolminer.site/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Download lolMiner  1.31 - AMD GPU Miner [2021]",
+        "excerpt":" Get started with lolMiner  \t\t \t\t\t \t\tVersion: 1.31  \t\tFile: *lolminer.exe,    \t\tSHA256: 8b013143e211b4a6d40fae6b44fed792bbb2857ebfc2b5e0fff383d183f93f67  \t\t(Download for Linux)\t \t\t \t\t \t\t \t\t \t\tDownload Now (Windows x64) \t\t \t\t(mirror) \t\t \t     The new lolMiner stable version is ready.   You can download lolMiner 1.31 from here:   Download Now   Download (mirror)   Inside the archive you will find a file README.txt with installation instructions.   Make sure to replace the pool and wallet address by what you’re using in all files.        ","categories": ["download"],
+        "tags": ["lolMiner"],
+        "url": "https://lolminer.site/download/1.31/",
+        "teaser": "https://lolminer.site/assets/images/thumbs/500x300.png"
       },]
