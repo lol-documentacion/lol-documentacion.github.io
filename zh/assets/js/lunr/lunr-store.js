@@ -1,6 +1,6 @@
 var store = [{
         "title": "NBMiner Setup Guide [2021]",
-        "excerpt":"You can use this list as a reference for all Launch Parameters supported by TeamRedMiner.    You can download TeamRedMiner 1.31 from here:   Download Now   Download (mirror)   Linux:  Under Linux you need to replace TeamRedMiner.exe with ./TeamRedMiner in the command-line examples below.   ","categories": ["documentation"],
+        "excerpt":"You can use this list as a reference for all Launch Parameters supported by TeamRedMiner.    You can download TeamRedMiner 1.32a from here:   Download Now   Download (mirror)   Linux:  Under Linux you need to replace TeamRedMiner.exe with ./TeamRedMiner in the command-line examples below.   ","categories": ["documentation"],
         "tags": ["NBMiner"],
         "url": "https://lolminer.site/documentation/setup/",
         "teaser": "https://lolminer.site/assets/images/thumbs/500x300.png"
