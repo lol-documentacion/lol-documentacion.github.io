@@ -76,4 +76,10 @@ var store = [{
         "tags": [],
         "url": "https://lolminer.site/ru/articles/whales-09-15/",
         "teaser": "https://lolminer.site/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Iphone 13 в Криптовалюте - Как менялась Ценность Apple",
+        "excerpt":"   Вот как менялась цена iPhone в BNB в момент выхода:      iPhone 8:        1,186 #bnb   iPhone 10:      682 #bnb   iPhone 11:       35 #bnb   iPhone 12:      26 #bnb   iPhone 13:      1.85 #bnb   В принципе, с тех пор можно было смело пользоваться iPhone 7s, он не особо устарел. И выжигающего глаза OLED монитора там еще не было, и того же 5G, который пока бесполезен, а говорят ещё и не очень безопасен.   А вот сэкономленные 1929 BNB на сегодняшний день стоят $820 000 или 60 миллионов рублей. На эти деньги можно купить сеть магазинов по продаже смартфонов. Посмотрите на свой 8-й iPhone. Так выглядят 60 млн рублей.   Новый слоган Apple для iPhone 13 как бы говорит нам: “ПРОСТО НЕРЕАЛЬНО”. Еще более нереально будет выглядеть цена вашего iPhone13 через каких-то 5 лет.  ","categories": ["articles"],
+        "tags": [],
+        "url": "https://lolminer.site/ru/articles/iphone-13-09-16/",
+        "teaser": "https://lolminer.site/assets/images/thumbs/500x300.png"
       },]
