@@ -143,7 +143,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
    <meta itemprop="headline" content="lolMiner 1.35 - AMD+NVIDIA GPU Miner">
    <meta itemprop="description" content="This is an optimized miner for AMD+NVIDIA GPUs">
-   <meta itemprop="datePublished" content="July 02, 2021">
+   <meta itemprop="datePublished" content="November 07, 2021">
    <section class="page__content" itemprop="text">
 <div class="feature__wrapper tim-vi">
    <div class="feature__item">
@@ -251,7 +251,13 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 </tr>
 </thead>
 <tbody>
-  <tr>
+<tr>
+    <td>Autolykos V2
+</td>
+<td>1.5
+</td>
+</tr>
+<tr>
     <td>BeamHash I
 </td>
 <td>1.0
@@ -369,7 +375,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
    <div class="row align-items-center tim-vi" itemscope="itemscope" itemtype="http://schema.org/HowTo">
 	<meta itemprop="name" content="Как настроить lolMiner">
        <div class="ytb-how">
-			<div class="youtube-player" data-id="tkez52mqK1E"></div>
+			<div class="youtube-player" data-id="QBVqgusWdsI"></div>
        </div>
        <ol class="step pl-0">
          <li class="step-element pb-0">
@@ -472,20 +478,152 @@ lolMiner.exe --algo ETHASH --pool ethash.poolbinance.com:8888 --user <span class
    </div>
  </section>
 </div>
-<!--
 <section class="tim-comm">
+<h2 class="my-title"><a id="start">Команды</a></h2>
 	<div class="tim-vi2">
-<code>-epool</code>  pheereum pool address. Only Stratum protocol is supported for pools. Miner supports all pools that are compatible with Dwarfpool proxy and accept pheereum wallet address directly.
+<p>Использование: <code>lolMiner.exe -команда1 -команда2 -команда3</code></p>
+Пример для Nicehash Ethereum:
+<p class="notice--warning"><code>lolMiner.exe --algo ETHASH --pool daggerhashimoto.eu-west.nicehash.com:3353 --user 3HHG3zpxP4AmbKDR9iRy1c2bqAb4WKhNwm.worker --tls 0 --ethstratum ETHV1
+pause</code></p>
+<p class="bold">Полный список параметров:</p>
+<h3>Алгоритм</h3>
+<p><code>-a [ --algo ] НАЗВАНИЕ_АЛГОРИТМА</code> - выбирает алгоритм майнинга. 
+</p>
+<p><code>--algo</code> или краткий синоним этой команды <code>-a</code> - выбирает алгоритм майнинга.</p>
+<p class="red notice--danger">Важно! Используйте либо длинный синоним, <code>--algo</code> <span class="bold">либо</span> короткий <code>-a</code>. Вам не нужно использовать вместе два варианта одной и той же команды.</p>
+<p>Дальнейшие команды будут разделены квадратными скобками. Сначала короткий синоним, а затем длинный. Не забудьте использовать только один вариант.</p>
+Доступные на данный момент алгоритмы:
+<ol>
+<li>Autolykos V2                               
+</li>
+<li>Ethash, Etchash                             
+</li>
+<li>Equihash 144/5, 192/7, 210/9                
+</li>
+<li>BeamHash III                           
+</li>
+<li>ZelHash     (EquihashR 125/4/0)             
+</li>
+<li>Cuck(ar)oo 29                         
+</li>
+<li>Cuckaroo   30 CTX                         
+</li>
+<li>Cuckatoo   31/32 
+</li>
+</ol>							  
+Пример: 
+<p class="notice--info"><code>lolMiner.exe -a ethash</code></p>
+<h3>URL пула</h3>
+<p><code>-p [ --pool ] arg</code> - устанавливает URL пула и ПОРТ пула. В настоящее время поддерживаются следующие протоколы:
+</p>
+<ul>
+<li>ETHV1: EthereumStratum/1.0.0 (Nicehash)
+</li>
+<li>ETHPROXY: Ethereum Proxy
+</li>
+<li>TLS
+</li>
+</ul>
+Пример:<br>
+<p class="bold notice--info"><code>--pool <span class="red">ethash.poolbinance.com:8888</span></code></p>
+<p>В этом примере URL-адрес <code>ethash.poolbinance.com</code> и порт <code>8888</code>. Значения должны быть в формате <code><pool>:<port></port></pool></code>, т.е. разделены знаком <code>:</code></p>
+<h3>Имя пользователя (логин пула) или адрес кошелька</h3>
+<p><code>-u [ --user ] arg</code> -  устанавливает имя пользователя или адрес кошелька для авторизации майнинг-пула.</p>
+Пример:<br>
+<p class="bold notice--info"><code><span class="red">-u BinancePoolUsername</span></code></p>
+<p>Если на пуле нет регистрации, то вместо логина нужно указать адрес кошелька.</p>
+Пример:<br>
+<p class="bold notice--info"><code><span class="red">-u 0x91Bc4865C0C1beAC64389C9E2faaDec6D02d0c8C</span></code></p>
+<h3>Пароль (необязательно)</h3>
+<p><code>--pass arg</code> - устанавливает пароль для авторизации пула.</p>
+Пример:<br>
+<p class="bold notice--info"><code><span class="red">-p x</span></code></p>
+<h3>Имя воркера (worker name)</h3>
+<p>Воркер - это имя вашего виртуального «сотрудника». Это имя указано для удобства отслеживания статистики.</p>
+<p><code>.worker</code> -  задайте простое имя воркера, чтобы отслеживать вашу установку (ферму) в пуле. Имя воркера указывается после знака <code>адреса_кошелька</code> и перед ним ставится точка.</p>
+Пример:<br>
+<p class="bold notice--info"><code>-u 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d<span class="red">.worker_name</span></code></p>
+<p>Минимальная конфигурация для запуска должна содержать только:
+</p>
+<ol>
+<li>адрес пула,
+</li>
+<li>адрес кошелька и
+</li>
+<li>имя воркера.
+</li>
+</ol>
+<p>Просто скопируйте и поменяйте адрес кошелька на адрес своего кошелька. Это готовый пример для Ethermine:</p>
+<p class="bold notice--info"><code>lolMiner.exe -a ethash -o stratum+tcp://<span class="red">eu1.ethermine.org:4444 -u 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d.worker_name -p x</span></code></p>
+<p>Для получения дополнительной информации см. <a href="/ru/documentation/arguments/">полную инструкцию по аргументам и параметрам командной строки LolMiner</a>.</p>
 	</div>
 </section>
--->
+<section class="land-color">
+<div class="tim-vi2">		
+<div class="my-title"><a id="start">Советы</a></div>
+<link itemprop="url" href="/#videoguide">
+<meta itemprop="image" content="/assets/images/og.png">
+<div class="youtubevideowrap" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/9mUC6A2PXzA">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/9mUC6A2PXzA">
+<h2 class="panel-title" itemprop="name" id="Установка и настройка Lolminer (для владельцев АМД)">Установка и настройка Lolminer (для владельцев АМД)</h2>
+<div itemprop="description">
+<p>Отредактировать батник (можно заменить целиком, только свой логин прописать не забываем):</p>
+<p class="notice--primary"><code>
+lolMiner.exe --algo ETHASH --pool stratum+tcp://ethash.poolbinance.com:8888 --user username1.Rig1
+</code></p>
+</div>
+<meta itemprop="uploadDate" content="2021-05-08">
+<meta itemprop="duration" content="PT11M02S">
+<div class="youtube-player" data-id="9mUC6A2PXzA"></div>
+</div>
+<p> </p>
+<link itemprop="url" href="/#videoguide">
+<meta itemprop="image" content="/assets/images/og.png">
+<div class="youtubevideowrap" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/yxmk_gsmBzc">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/yxmk_gsmBzc">
+<h2 class="panel-title" itemprop="name" id="Майнинг Nvidia 3080 LHR дает 71Mh на Эфире в новом Lolminer">Майнинг Nvidia 3080 LHR дает 71Mh на Эфире в новом Lolminer</h2>
+<div itemprop="description">
+<p>Показаны настройки разгона видеокарт Nvidia 3080 Low Hash Rate в Hive OS.</p>
+</div>
+<meta itemprop="uploadDate" content="2021-10-30">
+<meta itemprop="duration" content="PT6M02S">
+<div class="youtube-player" data-id="yxmk_gsmBzc"></div>
+</div>
+<p> </p>
+<p class="notice--warning">Ограничение хешрейта Nvidia LHR для графических процессоров GeForce RTX можно легко обойти. Уже было известно, что с помощью обходного пути программное обеспечение Lolminer смогло восстановить от 50 до 70 процентов производительности майнинга видеокарт Nvidia RTX с LHR.</p>
+<p> </p>
+<link itemprop="url" href="/#videoguide">
+<meta itemprop="image" content="/assets/images/og.png">
+<div class="youtubevideowrap" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/TIuHez-q574">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/TIuHez-q574">
+<h2 class="panel-title" itemprop="name" id="Тестируем LolMiner на Rtx 3060ti lhr (Hynix) ethereum">Тестируем LolMiner на Rtx 3060ti lhr (Hynix) ethereum</h2>
+<div itemprop="description">
+<p>Пример бат файла:</p>
+<p class="notice--info"><code>lolMiner.exe --algo ETHASH --pool eth.2miners.com:2020 --user 0x91Bc4865C0C1beAC64389C9E2faaDec6D02d0c8C.F1 
+pause</code></p>
+</div>
+<meta itemprop="uploadDate" content="2021-10-20">
+<meta itemprop="duration" content="PT10M49S">
+<div class="youtube-player" data-id="TIuHez-q574"></div>
+</div>
+</div>
+</section>
+<section class="future2">
+<div class="tim-vi2">		
+<div class="my-title"><a id="start">GitHub</a></div>
+Единственным официальным источником на GitHub является репозиторий <a href="https://github.com/Lolliedieb/lolMiner-releases" rel="nofollow noopener" target="_blank">https://github.com/Lolliedieb/lolMiner-releases</a>. В раздел <a href="https://github.com/Lolliedieb/lolMiner-releases/issues" rel="nofollow noopener" target="_blank">issues</a> вы можете задать свои вопросы и предложения. Все они будут рассмотрены разработчиком. А в разделе <a href="https://github.com/Lolliedieb/lolMiner-releases/releases" rel="nofollow noopener" target="_blank">releases</a> либо в разделе <a href="/ru/download/">downloads</a> вы найдете все версии программы.
+</div>
+</section>
 <section class="tim-comm">
 <div class="tim-vi2">		
 <div class="my-title"><a id="start">Шаблоны</a></div>
 <p>Используйте шаблоны (готовые примеры .bat файлов), чтобы применить предопределенную конфигурацию к одному или нескольким майнерам за одну операцию.</p>
 </div>
 <div class="tim-vi2 imgcen">
-<p><i class="fas fa-hand-holding-usd"></i> Если вы хотите пожертвовать Хэш- мощность - <b class="red break">006454Fcd0a8d7725DB0c033552021c40ac43C59</b></p>
+<p><i class="fas fa-hand-holding-usd"></i> Если вы хотите пожертвовать Хэш- мощность - <b class="red break">0x006454Fcd0a8d7725DB0c033552021c40ac43C59</b></p>
 <p>Спасибо!</p>
 </div>
 </section>

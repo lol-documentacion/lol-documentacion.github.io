@@ -5,23 +5,23 @@
 <meta charset="utf-8">
 <!-- begin _includes/seo.html -->
 <title>lolMiner: Настройки, Команды, Параметры Командной Строки</title>
-<meta name="description" content="Базовая настройка запуска программы">
+<meta name="description" content="Базовая настройка запуска программы. Аргумент командной строки - это параметр, передаваемый программе при ее вызове">
  <meta name="author" content="lolMiner">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="lolMiner">
 <meta property="og:title" content="lolMiner: Настройки, Команды, Параметры Командной Строки">
 <meta property="og:url" content="https://lolminer.site/documentation/arguments/">
- <meta property="og:description" content="Базовая настройка запуска программы">
+ <meta property="og:description" content="Базовая настройка запуска программы. Аргумент командной строки - это параметр, передаваемый программе при ее вызове">
  <meta property="og:image" content="https://lolminer.site/assets/images/site-logo.png">
  <meta name="twitter:site" content="@lolMiner">
  <meta name="twitter:title" content="lolMiner: Настройки, Команды, Параметры Командной Строки">
- <meta name="twitter:description" content="Базовая настройка запуска программы">
+ <meta name="twitter:description" content="Базовая настройка запуска программы. Аргумент командной строки - это параметр, передаваемый программе при ее вызове">
  <meta name="twitter:url" content="https://lolminer.site/documentation/arguments/">
    <meta name="twitter:card" content="summary">
      <meta name="twitter:image" content="https://lolminer.site/assets/images/site-logo.png">
  <meta property="article:published_time" content="2021-06-02T00:00:00+00:00">
- <meta property="article:modified_time" content="2021-06-02T00:00:00+00:00">
+ <meta property="article:modified_time" content="2021-11-07T00:00:00+00:00">
 <link rel="canonical" href="https://lolminer.site/ru/documentation/arguments/">
 <script type="application/ld+json">
   {
@@ -35,7 +35,7 @@
  <meta name="google-site-verification" content="3zxtzekV1-kovUjTBVAcsz_TKG7qtOkVfdA3D7gO_IE">
  <meta name="yandex-verification" content="1030458598931aea">
 <!-- end _includes/seo.html -->
-<meta name="description" content="Базовая настройка запуска программы">
+<meta name="description" content="Базовая настройка запуска программы. Аргумент командной строки - это параметр, передаваемый программе при ее вызове">
  <meta name="author" content="lolMiner">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="lolMiner Feed">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -144,15 +144,15 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
  </div>
  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
    <meta itemprop="headline" content="lolMiner: Настройки, Команды, Параметры Командной Строки">
-   <meta itemprop="description" content="Базовая настройка запуска программы">
+   <meta itemprop="description" content="Базовая настройка запуска программы. Аргумент командной строки - это параметр, передаваемый программе при ее вызове">
    <meta itemprop="datePublished" content="June 02, 2021">
-   <meta itemprop="dateModified" content="June 02, 2021"> 
+   <meta itemprop="dateModified" content="November 07, 2021"> 
    <div class="page__inner-wrap">
       <header>
 		 <h1 id="page-title" class="page__title" itemprop="headline">lolMiner: Настройки, Команды, Параметры Командной Строки
 </h1>
            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  менее 1 мин на чтение
+  3 мин на чтение
 </p>
        </header>
      <section class="page__content" itemprop="text">
@@ -174,14 +174,37 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
  </li>
 <li>
 <a href="#%D0%B3%D0%BE%D0%BE%D1%82%D0%B2%D0%BE%D1%8B%D0%B9-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-%D0%B4%D0%BB%D1%8F-binance-pool">Гоотвоый пример для Binance Pool</a>
+ </li>
+<li>
+<a href="#%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%BE%D0%B2-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8">Список параметров командной строки</a>
+   <ul>
+     <li>
+<a href="#%D0%BE%D0%B1%D1%89%D0%B8%D0%B5">Общие</a>
+     </li>
+<li>
+<a href="#%D0%BC%D0%B0%D0%B9%D0%BD%D0%B8%D0%BD%D0%B3">Майнинг</a>
+     </li>
+<li>
+<a href="#%D0%BE%D0%BF%D1%86%D0%B8%D1%8F-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F">Опция управления</a>
+     </li>
+<li>
+<a href="#%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0">Статистика</a>
+     </li>
+<li>
+<a href="#ethash-%D0%BE%D0%BF%D1%86%D0%B8%D0%B8">Ethash опции</a>
+     </li>
+<li>
+<a href="#ethash-%D1%8D%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D1%82%D0%BD%D1%8B%D0%B5-%D0%BE%D0%BF%D1%86%D0%B8%D0%B8">Ethash экспертные опции</a>
+   </li>
+</ul>
 </li>
 </ul>
            </nav>
          </aside>
-       <p><em>Базовая настройка запуска программы</em>
+       <p><em>Базовая настройка запуска программы. Аргумент командной строки - это параметр, передаваемый программе при ее вызове</em>
 <img srcset="/assets/images/documentation/mobile/nbminer.webp 323w,              /assets/images/documentation/webp/nbminer.webp 517w,              /assets/images/documentation/large/nbminer.webp 1920w" sizes="(max-width: 720px) 50px, 			(max-width: 721px) 1920px, 			(max-width: 1920px) 400px,             517px" src="/assets/images/documentation/jpeg/nbminer.png" alt="lolMiner" loading="lazy" decoding="async"></p>
 <h2 id="скачать">Скачать</h2>
-<p><a href="https://github.com/NebuTech/NBMiner/releases/download/v37.5/NBMiner_37.5_Win.ziphttps://github.com/Lolliedieb/lolMiner-releases/releases" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Скачать сейчас</a></p>
+<p><a href="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.35/lolMiner_v1.35_Win64.zip" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Скачать сейчас</a></p>
 <h2 id="параметры-командной-строки">Параметры командной строки</h2>
 <p>Чтобы запустить lolMiner, нужно знать три вещи,  а именно:</p>
 <ol>
@@ -354,8 +377,173 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 </tbody>
 </table>
 <h2 id="гоотвоый-пример-для-binance-pool">Гоотвоый пример для Binance Pool</h2>
-<p class="notice--ya">lolMiner.exe –algo ETHASH –pool ethash.poolbinance.com:8888 –user username1.worker_name –tls 0</p>
+<p class="notice--ya"><code class="language-plaintext highlighter-rouge">lolMiner.exe --algo ETHASH --pool ethash.poolbinance.com:8888 --user username1.worker_name --tls 0</code></p>
 <p>Просто измените <code class="language-plaintext highlighter-rouge">username1</code> на имя вашего аккаунта от пула Binance.</p>
+<p><a href="/assets/images/mining/mining_rig_995.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_995.jpg" alt="майнинг ферма" loading="lazy" decoding="async"> </a></p>
+<p>Вместо <code class="language-plaintext highlighter-rouge">arg</code> нужно подставить аргумент.</p>
+<h2 id="список-параметров-командной-строки">Список параметров командной строки</h2>
+<h3 id="общие">Общие</h3>
+<ul>
+ <li>
+   <p><code class="language-plaintext highlighter-rouge">-h</code> [ <code class="language-plaintext highlighter-rouge">--help</code> ]                         Help screen</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--config</code> arg (<code class="language-plaintext highlighter-rouge">=./lolMiner.cfg</code>)        Config file</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--json arg</code> (=<code class="language-plaintext highlighter-rouge">./user_config.json</code>)      Config file in Json format</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--profile</code> arg                         Profile to load from Json file</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--nocolor [=arg(=on)] (=off)</code>          Disable colors in output</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--basecolor [=arg(=on)] (=off)</code>        Use 16 colors scheme for non-rgb  terminals</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--list-coins</code>                          List all supported coin profiles</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--list-algos</code>                         List all supported algorithms</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--list-devices</code>                        List all supported &amp; detected GPUs in your system</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">-v</code> [ <code class="language-plaintext highlighter-rouge">--version</code> ]                      Print lolMiner version number</p>
+</li>
+</ul>
+<p><a href="/assets/images/mining/mining_rig_1006.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1006.jpg" alt="майнинг ферма" loading="lazy" decoding="async"> </a></p>
+<h3 id="майнинг">Майнинг</h3>
+<ul>
+ <li>
+<code class="language-plaintext highlighter-rouge">-c</code> [ <code class="language-plaintext highlighter-rouge">--coin</code> ] arg                     The coin to mine
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">-a</code> [ <code class="language-plaintext highlighter-rouge">--algo</code> ] arg                     The algorithm to mine. This is an alternative to <code class="language-plaintext highlighter-rouge">--coin</code>.
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">-p</code> [ <code class="language-plaintext highlighter-rouge">--pool</code> ] arg                     Mining pool to mine on. Format:<pool>:<port></port></pool>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">-u</code> [ <code class="language-plaintext highlighter-rouge">--user</code> ] arg                     Wallet or pool user account to mine on</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--pass arg</code>                            Pool user account password (Optional)</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--tls arg</code>                             Toggle TLS (“on” / “off”)</p>
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--devices arg</code>                         The devices to mine on
+</li>
+</ul>
+<p>Values: ALL / AMD / NVIDIA or a comma separated list of indexces.</p>
+<ul>
+ <li>
+   <p><code class="language-plaintext highlighter-rouge">--devicesbypcie [=arg(=on)] (=off)</code>    Interpret <code class="language-plaintext highlighter-rouge">--devices</code> as list of PCIE BUS:SLOT pair</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--pers arg</code>                            The personalization string.</p>
+</li>
+</ul>
+<p>Required when using <code class="language-plaintext highlighter-rouge">--algo</code> for Equihash algorithms</p>
+<ul>
+ <li>
+   <p><code class="language-plaintext highlighter-rouge">--keepfree arg (=5)</code>                   Set the number of MBytes of GPU memory  that should be left free by the miner.</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--benchmark arg</code>                       The algorithm to benchmark</p>
+</li>
+</ul>
+<p><a href="/assets/images/mining/mining_rig_1002.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1002.jpg" alt="майнинг ферма" loading="lazy" decoding="async"> </a></p>
+<h3 id="опция-управления">Опция управления</h3>
+<ul>
+ <li>
+<code class="language-plaintext highlighter-rouge">--singlethread [=arg(=-1)] (=-2)</code>      Enable single mining thread mode for  all GPUs (-1) or for a specific GPU id.
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--tstart arg (=0)</code>                     Minimal temperature for a GPU to start  in degree C. If set to 0 disables  restart below a fixed temperature.
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--tstop arg (=0)</code>                      Temperature to pause or stop a GPU from mining in degree C. If set to 0  disables stop above a fixed  temperature.
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--tmode arg (=edge)</code>                   Mode for temperature management.
+</li>
+</ul>
+<p>Use “edge” (default), “junction” or “memory” to set the mode for  temperature management.</p>
+<h3 id="статистика">Статистика</h3>
+<ul>
+ <li>
+   <p><code class="language-plaintext highlighter-rouge">--apiport arg (=0</code>)                    The port the API will use</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--longstats arg (=150)</code>                Long statistics interval</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--shortstats arg (=30)</code>                Short statistics interval</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--digits arg</code>                          Number of digits in hash speed after  delimiter</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--timeprint [=arg(=on)] (=off)</code>        Enables time stamp on short statistics (“on” / “off”)</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--compactaccept [=arg(=on)] (=off)</code>    Enables compact accept notification</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--log [=arg(=on)]</code>                     Enables printing a log file (“on” / “off”)</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--logfile arg</code>                         Path to a custom log file location</p>
+</li>
+</ul>
+<p><a href="/assets/images/mining/mining_rig_1003.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1003.jpg" alt="майнинг ферма" loading="lazy" decoding="async"> </a></p>
+<h3 id="ethash-опции">Ethash опции</h3>
+<p><code class="language-plaintext highlighter-rouge">--ethstratum arg (=ETHPROXY)</code>          Ethash stratum mode. Available options:</p>
+<ul>
+ <li>ETHV1: EthereumStratum/1.0.0 (Nicehash)
+ </li>
+<li>ETHPROXY: Ethereum Proxy
+</li>
+</ul>
+<p><code class="language-plaintext highlighter-rouge">--worker arg (=eth1.0)</code>                Separate worker name for Ethereum Proxy stratum mode.</p>
+<p><code class="language-plaintext highlighter-rouge">--4g-alloc-size arg (=0)</code>              Sets the DAG size (in MByte) the miner  is allowed to use on 4G cards. Can be a comma separated list of values for each card.</p>
+<p>Suggested values:</p>
+<ul>
+ <li>Linux: 4080
+ </li>
+<li>Windows: 4024
+</li>
+</ul>
+<p><code class="language-plaintext highlighter-rouge">--zombie-tune arg (=0)</code>                Sets the Zomie tune mode (0-3) for Polaris GPUs. Can be a comma separated  list of values to set for each card  individually.</p>
+<p><code class="language-plaintext highlighter-rouge">--dagdelay [=arg(=0)] (=-1)</code>           Delay between creating the DAG buffers  for the GPUs. Negative values enable  parallel generation (default).</p>
+<p><code class="language-plaintext highlighter-rouge">--enablezilcache [=arg(=1)] (=0)</code>      Allows 8G+ GPUs to store the DAG for  mining Zilliqa. It will generated only  once and offers a faster switching.</p>
+<p><code class="language-plaintext highlighter-rouge">--benchepoch arg (=350)</code>               The DAG epoch the denchmark mode will use</p>
+<p><a href="/assets/images/mining/mining_rig_1004.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1004.jpg" alt="майнинг ферма" loading="lazy" decoding="async"> </a></p>
+<h3 id="ethash-экспертные-опции">Ethash экспертные опции</h3>
+<ul>
+ <li>
+   <p><code class="language-plaintext highlighter-rouge">--workmulti arg (=180)</code>                Modifys the amount of Ethash work a GPU does per batch.</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--rebuild-defect arg (=3)</code>             Triggers a DAG rebuild if a card  produced<param> defect shares. Default is 3, use 0 to deactivate the rebuild.</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--enable-ecip1099 [=arg(=on)] (=off)</code>  Enable reduced DAG size for mining ETC  from block 11.730.000 and higher.</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--disableLinux56fix [=arg(=on)] (=off)</code> Disables the startup workaround for Polaris GPUs on Linux kernel 5.6.</p>
+ </li>
+<li>
+   <p><code class="language-plaintext highlighter-rouge">--win4galloc [=arg(=1)] (=0)</code>          Enables (1) / Disables (0) experimental 4G DAG allocation mode on Windows.</p>
+</li>
+</ul>
+<p><a href="/assets/images/mining/mining_rig_1005.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1005.jpg" alt="майнинг ферма" loading="lazy" decoding="async"> </a></p>
      </section>
 </div>
    </article>
@@ -489,7 +677,7 @@ Get started with lolMiner
       <a href="/documentation" class="page__taxonomy-item" rel="tag">documentation</a>
     </span>
  </p>
-		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2021-06-02T00:00:00+00:00">02.06.2021</time></p>
+		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2021-11-07T00:00:00+00:00">07.11.2021</time></p>
      </footer>
      <section class="page__share">
    <h4 class="page__share-title">Поделиться</h4>
