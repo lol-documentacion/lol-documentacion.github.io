@@ -1,7 +1,7 @@
 var store = [{
-        "title": "Argumentos de la línea de comandos de TeamRedMiner [2021]",
-        "excerpt":"You can use this list as a reference for all Launch Parameters supported by TeamRedMiner.    You can download TeamRedMiner 1.35 from here:   Download Now   Download (mirror)   Linux:  Under Linux you need to replace TeamRedMiner.exe with ./TeamRedMiner in the command-line examples below.   ","categories": ["documentation"],
-        "tags": ["TeamRedMiner"],
+        "title": "Argumentos de la línea de comandos de LolMiner [2021]",
+        "excerpt":"You can use this list as a reference for all Launch Parameters supported by LolMiner.    You can download LolMiner 1.35 from here:   Download Now   Download (mirror)   Linux:  Under Linux you need to replace LolMiner.exe with ./LolMiner in the command-line examples below.   ","categories": ["documentation"],
+        "tags": ["LolMiner"],
         "url": "https://lolminer.site/documentation/setup/",
         "teaser": "https://lolminer.site/assets/images/thumbs/500x300.png"
       },{
