@@ -123,23 +123,71 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 </div>
    <div class="initial-content">
 <div id="main" role="main">
+ <div class="sidebar nosticky">
+<nav class="nav__list">
+ <h3 class="nav__title" style="padding-left: 0;">Downloads</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
+  <label for="ac-toc">Toggle menu</label>
+ <ul class="nav__items">
+     <li>
+          <a href="/download/latest/"><span class="nav__sub-title">Latest stable version</span></a>
+     </li>
+<li>
+          <a href="/download/1.39"><span class="nav__sub-title">1.39</span></a>
+     </li>
+<li>
+          <a href="/download/1.38"><span class="nav__sub-title">1.38</span></a>
+     </li>
+<li>
+          <a href="/download/1.37"><span class="nav__sub-title">1.37</span></a>
+     </li>
+<li>
+          <a href="/download/1.36a"><span class="nav__sub-title">1.36a</span></a>
+     </li>
+<li>
+          <a href="/download/1.36"><span class="nav__sub-title">1.36</span></a>
+     </li>
+<li>
+          <a href="/download/1.35"><span class="nav__sub-title">1.35</span></a>
+     </li>
+<li>
+          <a href="/download/1.34a"><span class="nav__sub-title">1.34a</span></a>
+     </li>
+<li>
+          <a href="/download/1.34"><span class="nav__sub-title">1.34</span></a>
+     </li>
+<li>
+          <a href="/download/1.33"><span class="nav__sub-title">1.33</span></a>
+     </li>
+<li>
+          <a href="/download/1.32a"><span class="nav__sub-title">1.32a</span></a>
+     </li>
+<li>
+          <a href="/download/1.31"><span class="nav__sub-title">1.31</span></a>
+     </li>
+<li>
+          <a href="/download/1.29"><span class="nav__sub-title">1.29</span></a>
+ </li>
+</ul>
+</nav>
+ </div>
  <div class="archive">
      <h1 id="page-title" class="page__title"></h1>
    <div class="page__hero--overlay" style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/images/tim-background.jpg');">
 <div class="tim-header-center tim-vi">
 	  <div class="wrapper tim-header-composition">
      <h1 id="page-title" class="page__title" itemprop="headline">
-          lolMiner 1.38 - NVIDIA+AMD GPU Miner
+          lolMiner 1.39 - NVIDIA+AMD GPU Miner
      </h1>
 <p class="page__lead">a multi algorithm Ethash / Equihash / Beam &amp; Grin miner</p>
-       <p><a href="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.38/lolMiner_v1.38_Win64.zip" target="_blank" class="tim-button" rel="nofollow noopener">Download Now</a></p>
+       <p><a href="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.39/lolMiner_v1.39_Win64.zip" target="_blank" class="tim-button" rel="nofollow noopener">Download Now</a></p>
 		<p><a href="https://github.com/Lolliedieb/lolMiner-releases/releases" class="mhl" target="_blank" rel="nofollow noopener">(mirror)</a></p>
 </div>
 </div>
 </div>
 <div id="main" role="main" class="tim-vi">
  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
-   <meta itemprop="headline" content="lolMiner 1.38 - AMD+NVIDIA GPU Miner">
+   <meta itemprop="headline" content="lolMiner 1.39 - AMD+NVIDIA GPU Miner">
    <meta itemprop="description" content="This is an optimized miner for AMD+NVIDIA GPUs">
    <meta itemprop="datePublished" content="November 07, 2021">
    <section class="page__content" itemprop="text">
@@ -244,7 +292,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
   <tr>
     <th>Algorithm
 </th>
-<th>DevFee %
+<th>DevFee % 
 </th>
 </tr>
 </thead>
@@ -252,109 +300,121 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <tr>
     <td>Autolykos V2
 </td>
-<td>1.5
+<td>1.5   
 </td>
 </tr>
 <tr>
-    <td>BeamHash I
+    <td>BeamHash I     
+</td>
+<td>1.0   
+</td>
+</tr>
+<tr>
+    <td>BeamHash II     
+</td>
+<td>1.0   
+</td>
+</tr>
+<tr>
+    <td>BeamHash III     
+</td>
+<td>1.0   
+</td>
+</tr>
+<tr>
+    <td>Cuckoo 29     
+</td>
+<td>2.0   
+</td>
+</tr>
+<tr>
+    <td>CuckarooD 29     
+</td>
+<td>2.0   
+</td>
+</tr>
+<tr>
+    <td>CuckarooM 29     
+</td>
+<td>2.0   
+</td>
+</tr>
+<tr>
+    <td>Cuckaroo 30 CTXC     
+</td>
+<td>2.5   
+</td>
+</tr>
+<tr>
+    <td>Cuckatoo 31     
+</td>
+<td>2.0   
+</td>
+</tr>
+<tr>
+    <td>Cuckatoo 32     
+</td>
+<td>2.0   
+</td>
+</tr>
+<tr>
+    <td>Cuckaroo 29-32     
+</td>
+<td>1.0   
+</td>
+</tr>
+<tr>
+    <td>Cuckaroo 29-40     
+</td>
+<td>1.0   
+</td>
+</tr>
+<tr>
+    <td>Equihash 144/5     
+</td>
+<td>1.0   
+</td>
+</tr>
+<tr>
+    <td>Equihash 192/7     
+</td>
+<td>1.0   
+</td>
+</tr>
+<tr>
+    <td>Equihash 210/9     
+</td>
+<td>1.0   
+</td>
+</tr>
+<tr>
+    <td>Etchash     
+</td>
+<td>0.7   
+</td>
+</tr>
+<tr>
+    <td>Ethash     
+</td>
+<td>0.7   
+</td>
+</tr>
+<tr>
+    <td>ZelHash     
 </td>
 <td>1.0
 </td>
 </tr>
 <tr>
-    <td>BeamHash II
-</td>
-<td>1.0
-</td>
-</tr>
-<tr>
-    <td>BeamHash III
-</td>
-<td>1.0
+    <td>TON
+	</td>
+<td>1,5
 </td>
 </tr>
 <tr>
-    <td>Cuckoo 29
-</td>
-<td>2.0
-</td>
-</tr>
-<tr>
-    <td>CuckarooD 29
-</td>
-<td>2.0
-</td>
-</tr>
-<tr>
-    <td>CuckarooM 29
-</td>
-<td>2.0
-</td>
-</tr>
-<tr>
-    <td>Cuckaroo 30 CTXC
-</td>
-<td>2.5
-</td>
-</tr>
-<tr>
-    <td>Cuckatoo 31
-</td>
-<td>2.0
-</td>
-</tr>
-<tr>
-    <td>Cuckatoo 32
-</td>
-<td>2.0
-</td>
-</tr>
-<tr>
-    <td>Cuckaroo 29-32
-</td>
-<td>1.0
-</td>
-</tr>
-<tr>
-    <td>Cuckaroo 29-40
-</td>
-<td>1.0
-</td>
-</tr>
-<tr>
-    <td>Equihash 144/5
-</td>
-<td>1.0
-</td>
-</tr>
-<tr>
-    <td>Equihash 192/7
-</td>
-<td>1.0
-</td>
-</tr>
-<tr>
-    <td>Equihash 210/9
-</td>
-<td>1.0
-</td>
-</tr>
-<tr>
-    <td>Etchash
-</td>
-<td>0.7
-</td>
-</tr>
-<tr>
-    <td>Ethash
-</td>
-<td>0.7
-</td>
-</tr>
-<tr>
-    <td>ZelHash
-</td>
-<td>1.0
+    <td>UBQHASH
+	</td>
+<td>0,7
 </td>
 </tr>
 </tbody>
@@ -449,9 +509,9 @@ lolMiner.exe --algo ETHASH --pool ethash.poolbinance.com:8888 --user <span class
    <div class="row">
      <div class="down-inner">
        <h2 class="h2 mb-4 pb-2">Download now</h2>
-       <p class="text-center mx-auto mb-4 pb-2">Latest version is 1.38<br>
+       <p class="text-center mx-auto mb-4 pb-2">Latest version is 1.39<br>
 File: *lolminer.exe, <br>
-<span class="break">SHA256: 9462a1da29a3ed8d3189b0759299c880ba1292a49682a73a12432b3801fcf7b6</span><br></p>
+<span class="break">SHA256: 59409fdfac48ae794a02334789f7186e5b0d835328eda2176b6ad3bdfb6ed862</span><br></p>
        <hr class="hr-light" style="width: 3rem;">
        <ul class="rating mt-4 pt-2 mb-1">
 <li>
@@ -471,8 +531,8 @@ File: *lolminer.exe, <br>
 </li>
 </ul>
        <p class="mb-4 pb-2"><small>Based on 3,400+ reviews</small></p>
-        <button type="button" class="front-but win"> <a href="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.38/lolMiner_v1.38_Win64.zip" target="_blank" rel="nofollow noopener">Download (windows)</a></button>
-				<button type="button" class="front-but lin"> <a href="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.38/lolMiner_v1.38_Lin64.tar.gz" rel="nofollow noopener" target="_blank">Download (linux)</a></button>
+        <button type="button" class="front-but win"> <a href="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.39/lolMiner_v1.39_Win64.zip" target="_blank" rel="nofollow noopener">Download (windows)</a></button>
+				<button type="button" class="front-but lin"> <a href="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.39/lolMiner_v1.39_Lin64.tar.gz" rel="nofollow noopener" target="_blank">Download (linux)</a></button>
      </div>
    </div>
  </section>
@@ -569,6 +629,33 @@ The result of digital mining is called proof of work system. ... However, mining
 </section>
 -->
 <!--<h3 class="archive__subtitle">Recent posts</h3>-->
+     <article class="post archive__item-excerpt">
+     <h2><a href="/download/latest/">Download the latest version LolMiner (1.39) - AMD+NVIDIA [2021]</a></h2>
+	  	<span class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  2 minute read
+</span>
+       <section class="tim-down2">
+<div class="tim-title whitez1"><a id="download">Get started with lolMiner</a></div>
+<div class="tim-download">
+	<div class="tim-flex-inner">	
+		<div class="tim-ver">	
+		Latest version is 1.39
+		SHA256: 59409fdfac48ae794a02334789f7186e5b0d835328eda2176b6ad3bdfb6ed862 *<code>lolminer1.39.exe</code>
+		<span class="nev2">(<a href="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.39/lolMiner_v1.39_Lin64.tar.gz" rel="nofollow noopener" target="_blank">Download for Linux</a>)</span>	
+		</div>
+		<div class="tim-get">
+		<!-- <span class="tim-password">Password: lolminer</span> -->
+		<div class="tim-button down">
+<i class="far fa-arrow-alt-circle-down"></i>
+		<a href="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.39/lolMiner_v1.39_Win64.zip" rel="nofollow noopener" target="_blank">Download Now (Windows x64)</a>
+		</div>
+		<span class="tim-mirror">(<a href="https://github.com/Lolliedieb/lolMiner-releases/releases" target="_blank" rel="nofollow">mirror</a>)</span>
+		</div>
+	</div>
+</div>
+</section>
+      <a href="/download/latest/" class="read-more btn btn--info">Read More</a>
+   </article>
      <article class="post archive__item-excerpt">
      <h2><a href="/download/1.31/">Download lolMiner 1.31 - NVIDIA+AMD GPU Miner [2021]</a></h2>
 	  	<span class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
