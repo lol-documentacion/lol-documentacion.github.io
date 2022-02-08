@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://lolminer.site/sitemap_index.xml
