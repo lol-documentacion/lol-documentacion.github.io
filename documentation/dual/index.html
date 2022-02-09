@@ -155,7 +155,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 		 <h1 id="page-title" class="page__title" itemprop="headline">lolMiner: ETH and TON Dual Mining Settings (2022)
 </h1>
            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  6 minute read
+  7 minute read
 </p>
        </header>
      <section class="page__content" itemprop="text">
@@ -178,14 +178,12 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
  </li>
 <li>
 <a href="#setting-up-dual-mining-ethton-under-windows">Setting up dual-mining ETH+TON under Windows</a>
-   <ul>
-     <li>
-<a href="#Windows:%20Lolminer%20vs%20t-rex%20dual%20mining%20-%20eth+ton%20vs%20eth+alph%20-%20maximum%20profit">Windows: Lolminer vs t-rex dual mining - eth+ton vs eth+alph - maximum profit</a>
-   </li>
-</ul>
  </li>
 <li>
 <a href="#setting-up-ethton-dual-mining-in-hiveos">Setting up ETH+TON dual mining in HiveOS</a>
+ </li>
+<li>
+<a href="#overclocking-options">Overclocking Options</a>
 </li>
 </ul>
            </nav>
@@ -205,15 +203,30 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <p>I recommend that you now read the detailed <a href="https://cryptosoft.download/en/miners/danilaminer/" rel="nofollow noopener" target="_blank">instructions for setting up TON COIN mining on Windows</a> and HiveOS, because they contain important information.</p>
 <h2 id="wallets-for-mining">Wallets for mining</h2>
 <p>Let’s start with the most basic - by creating wallets for mining Ethereum and Ton coins.</p>
-<p class="notice--success">The most convenient option for accumulating Ethereum coins will be <a href="https://accounts.binance.com/en/register?ref=DJ4T34C8" rel="nofollow noopener" target="_blank">the largest exchange Binance</a>, after registration, go to the Fiat and Spot section, find the ETH coin in the search and press enter . Choose the right ETH (ERC20) network. This address will be used in miner settings. And from the Binance exchange, it will be possible to withdraw Ethereum to a card with minimal commissions.</p>
+<p class="notice--success">The most convenient option for accumulating Ethereum coins will be <a href="https://accounts.binance.com/en/register?ref=DJ4T34C8" rel="nofollow noopener" target="_blank">the largest exchange Binance</a>.</p>
+<p>After registration, go to the Fiat and Spot section:</p>
+<p><a href="/assets/images/documentation/dual/fiat_and_spot.png" class="image-popup"> <img src="/assets/images/documentation/dual/fiat_and_spot.png" alt="binance - fiat_and_spot" loading="lazy" decoding="async"> </a></p>
+<p>Find the ETH coin in the search and press enter . Choose the right ETH (ERC20) network.</p>
+<p><a href="/assets/images/documentation/dual/binance_eth_deposit.png" class="image-popup"> <img src="/assets/images/documentation/dual/binance_eth_deposit.png" alt="binance - eth_deposit" loading="lazy" decoding="async"> </a></p>
+<p>This address will be used in miner settings. And from the Binance exchange, it will be possible to withdraw Ethereum to a card with minimal commissions.</p>
 <p><a href="https://ton.org/wallets" rel="nofollow noopener" target="_blank">It is better to create a wallet for Ton Coin on the official website</a> for security reasons. I advise you to create a TON web wallet, then download the official wallet app on your smartphone and add a seed phrase to it. This will make it easier to access. Although you can use a desktop wallet. It depends on your preferences.</p>
+<p><a href="/assets/images/documentation/dual/ton_wallets.png" class="image-popup"> <img src="/assets/images/documentation/dual/ton_wallets.png" alt="ton_wallets" loading="lazy" decoding="async"> </a></p>
 <p>To withdraw TON coins to the card, it is more convenient to use the OKEX exchange. By the way, an option will soon appear in the TON wallet mobile application, with the help of which you can transfer coins to the deposit of this exchange without the need to take actions and without creating a transaction with a comment.</p>
 <h2 id="pools-for-eth-and-ton">Pools for ETH and TON</h2>
 <p>With the choice of a pool for mining Toncoin, everything is very simple: [Whales Pool] (https://tonwhales.com/mining) is the largest and best.</p>
 <p>His server: <code class="language-plaintext highlighter-rouge">https://server1.whalestonpool.com</code></p>
-<p class="notice--info">You will need to <a href="https://cryptosoft.download/en/miners/danilaminer/#Step%202%20-%20Configure%20TON%20Miner" rel="nofollow noopener" target="_blank">add the Whales bot to your Telegram</a>, with which you can perform all the necessary manipulations. First you need to run this bot and register your wallet address.</p>
+<p class="notice--info">You will need to <a href="https://cryptosoft.download/en/miners/danilaminer/#Step%202%20-%20Configure%20TON%20Miner" rel="nofollow noopener" target="_blank">add the Whales bot to your Telegram</a>, with which you can perform all the necessary manipulations.</p>
+<p>First you need to run this bot.</p>
+<p><a href="/assets/images/documentation/dual/whales_bot_start.png" class="image-popup"> <img src="/assets/images/documentation/dual/whales_bot_start.png" alt="whales_bot_start" loading="lazy" decoding="async"> </a></p>
+<p>Then register your wallet address.</p>
+<p><a href="/assets/images/documentation/dual/whales_bot_wallet.png" class="image-popup"> <img src="/assets/images/documentation/dual/whales_bot_wallet.png" alt="whales_bot_wallet" loading="lazy" decoding="async"> </a></p>
 <p>To check your balance on the pool, you will need to enter a certain command or select it from the menu.</p>
 <p>There is also a withdrawal command, after which you need to send a number with the required number of coins that you want to transfer to the wallet, or send zero to see all available coins.</p>
+<p>WhalesPoolBot commands:</p>
+<p><code class="language-plaintext highlighter-rouge">/balance</code> - Get your pool balance</p>
+<p><code class="language-plaintext highlighter-rouge">/withdraw</code> - Withdrawal your coins from bot</p>
+<p><code class="language-plaintext highlighter-rouge">/recent_withdrawals</code> - View recent 30 withdrawals</p>
+<p><a href="/assets/images/documentation/dual/whales_bot_withdrawal.png" class="image-popup"> <img src="/assets/images/documentation/dual/whales_bot_withdrawal.png" alt="whales_bot_withdrawal" loading="lazy" decoding="async"> </a></p>
 <p>Now you need to choose an Ethereum mining pool if you haven’t already.</p>
 <p>There are many good pools, the largest of which is Ethermine, but it is not very convenient due to the minimum withdrawals, which will take a long time, although administrators are trying to reduce both the commission and the withdrawal amount through swap services and online wallets.</p>
 <p class="notice--danger">If you are using the HiveOS mining operating system, most likely you are mining in the <a href="https://hiveon.net/" rel="nofollow noopener" target="_blank">HiveON pool</a> in order to pay less for the number of connected farms. And this is one of the right decisions, but the minimum payouts are still high if you are not a big miner. The only real solution for miners with low computing power will be the Binance exchange pool.</p>
@@ -244,7 +257,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
 <link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/Z8fFnPmf4tE">
 <link itemprop="contentUrl" content="https://www.youtube.com/embed/Z8fFnPmf4tE">
-<h3 class="panel-title" itemprop="name" id="Windows: Lolminer vs t-rex dual mining - eth+ton vs eth+alph - maximum profit">Windows: Lolminer vs t-rex dual mining - eth+ton vs eth+alph - maximum profit</h3>
+<span class="panel-title" itemprop="name" id="Windows: Lolminer vs t-rex dual mining - eth+ton vs eth+alph - maximum profit">Windows: Lolminer vs t-rex dual mining - eth+ton vs eth+alph - maximum profit</span>
 <div itemprop="description">
 <p>I think ERGO has a very good future. TON however, is also very nice, but with the current rate will go POS.</p>
 <p>So it's kind of a race to get the max of both ERG+TON lol. Best way is to convert ETH to ERG, while mining ETH+TON. I am almost done reaching my ALPH hold goal and then will trade ETH for ERG.</p>
@@ -261,6 +274,20 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <link itemprop="url" href="/#videoguide">
 <meta itemprop="image" content="/assets/images/og.png">
 <div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/z95YdFkliJc">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/z95YdFkliJc">
+<span class="bold panel-title" itemprop="name" id="Dual Mine Eth and Ton on HiveOS">Dual Mine Eth and Ton on HiveOS</span>
+<div itemprop="description">
+<p>You can using lolminer. However they both rely heavily on the memory so they will be competing for resources. The reason ETH+TON is so profitable is that ETH mainly utilizes the mem and TON uses the core almost exclusively so they don't take much away from the other.</p>
+</div>
+<meta itemprop="uploadDate" content="2022-02-05">
+<meta itemprop="duration" content="PT6M24S">
+<div class="youtube-player" data-id="z95YdFkliJc"></div>
+</div>
+<p> </p>
+<link itemprop="url" href="/#videoguide">
+<meta itemprop="image" content="/assets/images/og.png">
+<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
 <link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/Qvsuq84iOj8">
 <link itemprop="contentUrl" content="https://www.youtube.com/embed/Qvsuq84iOj8">
 <span class="bold panel-title" itemprop="name" id="Dual mining Ethereum &amp; Ton is better with LOLMiner">Dual mining Ethereum &amp; Ton is better with LOLMiner</span>
@@ -273,6 +300,21 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <meta itemprop="duration" content="PT12M03S">
 <div class="youtube-player" data-id="Qvsuq84iOj8"></div>
 </div>
+<p> </p>
+<p>Visit the HiveOS home page and enter the Ethereum and Ton wallet addresses in the Wallets section.</p>
+<p>If you are using a Binance exchange pool, you must enter the <code class="language-plaintext highlighter-rouge">account name</code> of that pool instead of the wallet address, which will be provided to you after registration.</p>
+<p>My created wallets look like this in HiveOS:</p>
+<p><a href="/assets/images/documentation/dual/hiveos_eth_ton.png" class="image-popup"> <img src="/assets/images/documentation/dual/hiveos_eth_ton.png" alt="hiveos_eth_ton" loading="lazy" decoding="async"> </a></p>
+<p>And the last thing: we create a flight sheet, in which there will be a configuration for mining. Enter all the data as in the screenshot, just select the pools you decide to use.</p>
+<p><a href="/assets/images/documentation/dual/hiveos_lolminer_config_dual.png" class="image-popup"> <img src="/assets/images/documentation/dual/hiveos_lolminer_config_dual.png" alt="hiveos_lolminer_config_dual" loading="lazy" decoding="async"> </a></p>
+<p>Now, to fine-tune lolMiner, you need to go to its settings. Choose the latest version with two coins mining mode.</p>
+<p>If you don’t see the new version, update HiveOS on your installations.</p>
+<p><a href="/assets/images/documentation/dual/hiveos_dual_flightsheet.png" class="image-popup"> <img src="/assets/images/documentation/dual/hiveos_dual_flightsheet.png" alt="hiveos_dual_flightsheet" loading="lazy" decoding="async"> </a></p>
+<p>To start mining, you need to go to the farm, open the worker settings and click on the rocket icon in the flight sheet tab.</p>
+<h2 id="overclocking-options">Overclocking Options</h2>
+<p>Powerful video cards are now working on the extraction of two coins on two algorithms. To achieve maximum performance, you need to abandon downvolting and increase the power consumption limit.</p>
+<p>Let’s say if you had a power limit of 280 watts, now you need to raise it to 360 watts.</p>
+<p>Clock speed for Dagger-Hashimoto (you also need to increase the clock speed for mining ether). As a result, we get the following hashrate: 83 MH/s on Ethereum and 2.97 GH/s on Tone.</p>
      </section>
 </div>
    </article>
