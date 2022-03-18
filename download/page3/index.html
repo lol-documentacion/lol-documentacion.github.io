@@ -580,6 +580,86 @@ File: *lolminer.exe, <br>
    </div>
  </section>
 </div>
+<section class="tim-comm">
+<h2 class="my-title"><a id="start">Commands</a></h2>
+<div class="tim-vi2">
+<p>Usage: <code>lolMiner.exe -command1 -command2 -command3</code></p>
+Example for Nicehash Ethereum:  
+<p class="notice--warning"><code>lolMiner.exe --algo ETHASH --pool daggerhashimoto.eu-west.nicehash.com:3353 --user 3HHG3zpxP4AmbKDR9iRy1c2bqAb4WKhNwm.worker --tls 0 --ethstratum ETHV1
+pause</code></p>
+<p class="bold">Full list of parameters:</p>
+<h3>Algorithm</h3>
+<p><code>-a [ --algo ] ALGORITHM_NAME</code> - selects the mining algorithm.
+</p>
+<p><code>--algo</code> or a short synonym for this command <code>-a</code> - selects the mining algorithm.</p>
+<p class="red notice--danger">Important! Use either the long synonym, <code>--algo</code> <span class="bold">or the short </span> <code>-a</code>. You don't need to use two variants of the same command together.</p>
+<p>Further commands will be separated by square brackets. First a short synonym, and then a long one. Remember to use only one option.</p>
+Currently available algorithms:  
+<ol>
+<li>Autolykos V2
+</li>
+<li>Ethash, Etchash
+</li>
+<li>Equihash 144/5, 192/7, 210/9
+</li>
+<li>BeamHash III
+</li>
+<li>ZelHash (EquihashR 125/4/0)
+</li>
+<li>Cuck(ar)oo 29
+</li>
+<li>Cuckaroo 30 CTX
+</li>
+<li>Cuckatoo 31/32
+</li>
+</ol>
+Example:  
+<p class="notice--info"><code>lolMiner.exe -a ethash</code></p>
+<h3>Pool URL</h3>
+<p><code>-p [ --pool ] arg</code> - sets pool URL and pool PORT. The following protocols are currently supported:
+</p>
+<ul>
+<li>ETHV1: EthereumStratum/1.0.0 (Nicehash)
+</li>
+<li>ETHPROXY: Ethereum Proxy
+</li>
+<li>TLS
+</li>
+</ul>
+Example:<br>
+<p class="bold notice--info"><code>--pool <span class="red">ethash.poolbinance.com:8888</span></code></p>
+<p>In this example, the URL is <code>ethash.poolbinance.com</code> and the port is <code>8888</code>. Values ​​must be in the format <code><pool>:<port></port></pool></code>, i.e. separated by <code>:</code></p>
+<h3>Username (pool login) or wallet address</h3>
+<p><code>-u [ --user ] arg</code> - sets username or wallet address for mining pool authorization.</p>
+Example:<br>
+<p class="bold notice--info"><code><span class="red">-u BinancePoolUsername</span></code></p>
+<p>If there is no registration on the pool, then you need to specify the wallet address instead of the login.</p>
+Example:<br>
+<p class="bold notice--info"><code><span class="red">-u 0x91Bc4865C0C1beAC64389C9E2faaDec6D02d0c8C</span></code></p>
+<h3>Password (optional)</h3>
+<p><code>--pass arg</code> - sets the password for pool authorization.</p>
+Example:<br>
+<p class="bold notice--info"><code><span class="red">-p x</span></code></p>
+<h3>Worker name</h3>
+<p>Worker is the name of your virtual "employee". This name is provided for the convenience of tracking statistics.</p>
+<p><code>.worker</code> - set a simple worker name to keep track of your installation (farm) in the pool. The name of the worker is indicated after the sign <code>wallet_address</code> and preceded by a dot.</p>
+Example:<br>
+<p class="bold notice--info"><code>-u 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d<span class="red">.worker_name</span></code></p>
+<p>The minimum configuration to run should only contain:
+</p>
+<ol>
+<li>pool address,
+</li>
+<li>wallet address and
+</li>
+<li>worker name.
+</li>
+</ol>
+<p>Just copy and change the wallet address to your wallet address. This is a finished example for Ethermine:</p>
+<p class="bold notice--info"><code>lolMiner.exe -a ethash -o stratum+tcp://<span class="red">eu1.ethermine.org:4444 -u 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d.worker_name - px</span></code></p>
+<p>For more information, see <a href="/documentation/arguments/">full instructions on LolMiner's arguments and command line options</a>.</p>
+</div>
+</section>
 <section class="land-color">
 <div class="tim-vi2">		
 <div class="my-title"><a id="start">Tips</a></div>
