@@ -10,15 +10,6 @@
     <priority>1.0</priority>
   </url>
   
-  <url>
-    <loc>https://lolminer.site/es/documentation/setup/</loc>
-    
-    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
   
   
   
@@ -26,7 +17,7 @@
   <url>
     <loc>https://lolminer.site/es/about/</loc>
       
-        <lastmod>2022-03-18T11:04:47+00:00</lastmod>
+        <lastmod>2022-03-30T13:23:35+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -38,7 +29,7 @@
   <url>
     <loc>https://lolminer.site/es/legal/cookie/</loc>
       
-        <lastmod>2022-03-18T11:04:47+00:00</lastmod>
+        <lastmod>2022-03-30T13:23:35+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -50,7 +41,7 @@
   <url>
     <loc>https://lolminer.site/es/legal/disclaimer/</loc>
       
-        <lastmod>2022-03-18T11:04:47+00:00</lastmod>
+        <lastmod>2022-03-30T13:23:35+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -62,7 +53,7 @@
   <url>
     <loc>https://lolminer.site/es/</loc>
       
-        <lastmod>2022-03-18T11:04:47+00:00</lastmod>
+        <lastmod>2022-03-30T13:23:35+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -86,7 +77,7 @@
   <url>
     <loc>https://lolminer.site/es/legal/privacy/</loc>
       
-        <lastmod>2022-03-18T11:04:47+00:00</lastmod>
+        <lastmod>2022-03-30T13:23:35+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -100,7 +91,7 @@
   <url>
     <loc>https://lolminer.site/es/legal/terms/</loc>
       
-        <lastmod>2022-03-18T11:04:47+00:00</lastmod>
+        <lastmod>2022-03-30T13:23:35+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -112,7 +103,7 @@
   <url>
     <loc>https://lolminer.site/es/articles/</loc>
       
-        <lastmod>2022-03-18T11:04:47+00:00</lastmod>
+        <lastmod>2022-03-30T13:23:35+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -124,7 +115,7 @@
   <url>
     <loc>https://lolminer.site/es/blog/</loc>
       
-        <lastmod>2022-03-18T11:04:47+00:00</lastmod>
+        <lastmod>2022-03-30T13:23:35+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -136,7 +127,7 @@
   <url>
     <loc>https://lolminer.site/es/documentation/</loc>
       
-        <lastmod>2022-03-18T11:04:47+00:00</lastmod>
+        <lastmod>2022-03-30T13:23:35+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -148,7 +139,7 @@
   <url>
     <loc>https://lolminer.site/es/download/</loc>
       
-        <lastmod>2022-03-18T11:04:47+00:00</lastmod>
+        <lastmod>2022-03-30T13:23:35+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -160,7 +151,7 @@
   <url>
     <loc>https://lolminer.site/es/video/</loc>
       
-        <lastmod>2022-03-18T11:04:47+00:00</lastmod>
+        <lastmod>2022-03-30T13:23:35+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
