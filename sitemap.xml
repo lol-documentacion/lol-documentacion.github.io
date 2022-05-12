@@ -2,6 +2,15 @@
 <urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lolminer.site/download/1.50/</loc>
+    
+    <lastmod>2022-05-12T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>https://lolminer.site/download/1.49/</loc>
     
     <lastmod>2022-05-07T00:00:00+00:00</lastmod>
@@ -260,7 +269,7 @@
   <url>
     <loc>https://lolminer.site/about/</loc>
       
-        <lastmod>2022-05-08T09:40:42+00:00</lastmod>
+        <lastmod>2022-05-12T09:22:55+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -272,7 +281,7 @@
   <url>
     <loc>https://lolminer.site/legal/cookie/</loc>
       
-        <lastmod>2022-05-08T09:40:42+00:00</lastmod>
+        <lastmod>2022-05-12T09:22:55+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -284,7 +293,7 @@
   <url>
     <loc>https://lolminer.site/legal/disclaimer/</loc>
       
-        <lastmod>2022-05-08T09:40:42+00:00</lastmod>
+        <lastmod>2022-05-12T09:22:55+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -296,7 +305,7 @@
   <url>
     <loc>https://lolminer.site/</loc>
       
-        <lastmod>2022-05-08T09:40:42+00:00</lastmod>
+        <lastmod>2022-05-12T09:22:55+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -320,7 +329,7 @@
   <url>
     <loc>https://lolminer.site/legal/privacy/</loc>
       
-        <lastmod>2022-05-08T09:40:42+00:00</lastmod>
+        <lastmod>2022-05-12T09:22:55+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -334,7 +343,7 @@
   <url>
     <loc>https://lolminer.site/legal/terms/</loc>
       
-        <lastmod>2022-05-08T09:40:42+00:00</lastmod>
+        <lastmod>2022-05-12T09:22:55+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -346,7 +355,7 @@
   <url>
     <loc>https://lolminer.site/articles/</loc>
       
-        <lastmod>2022-05-08T09:40:42+00:00</lastmod>
+        <lastmod>2022-05-12T09:22:55+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -358,7 +367,7 @@
   <url>
     <loc>https://lolminer.site/blog/</loc>
       
-        <lastmod>2022-05-08T09:40:42+00:00</lastmod>
+        <lastmod>2022-05-12T09:22:55+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -370,7 +379,7 @@
   <url>
     <loc>https://lolminer.site/documentation/</loc>
       
-        <lastmod>2022-05-08T09:40:42+00:00</lastmod>
+        <lastmod>2022-05-12T09:22:55+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -382,7 +391,7 @@
   <url>
     <loc>https://lolminer.site/download/</loc>
       
-        <lastmod>2022-05-08T09:40:42+00:00</lastmod>
+        <lastmod>2022-05-12T09:22:55+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -394,7 +403,7 @@
   <url>
     <loc>https://lolminer.site/download/page2/</loc>
       
-        <lastmod>2022-05-08T09:40:42+00:00</lastmod>
+        <lastmod>2022-05-12T09:22:55+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -406,7 +415,7 @@
   <url>
     <loc>https://lolminer.site/download/page3/</loc>
       
-        <lastmod>2022-05-08T09:40:42+00:00</lastmod>
+        <lastmod>2022-05-12T09:22:55+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -418,7 +427,7 @@
   <url>
     <loc>https://lolminer.site/video/</loc>
       
-        <lastmod>2022-05-08T09:40:42+00:00</lastmod>
+        <lastmod>2022-05-12T09:22:55+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
