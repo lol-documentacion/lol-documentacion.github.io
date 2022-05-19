@@ -21,7 +21,7 @@
    <meta name="twitter:card" content="summary">
      <meta name="twitter:image" content="https://lolminer.site/assets/images/site-logo.png">
  <meta property="article:published_time" content="2021-06-02T00:00:00+00:00">
- <meta property="article:modified_time" content="2022-03-18T00:00:00+00:00">
+ <meta property="article:modified_time" content="2022-05-19T00:00:00+00:00">
 <link rel="canonical" href="https://lolminer.site/documentation/arguments/">
 <script type="application/ld+json">
 {
@@ -43,7 +43,7 @@
       "url": "https://lolminer.site/assets/images/logo2.png"
     }
   },
-  "dateModified": "2022-03-18T00:00:00+00:00"
+  "dateModified": "2022-05-19T00:00:00+00:00"
 }
 </script>
  <meta name="google-site-verification" content="3zxtzekV1-kovUjTBVAcsz_TKG7qtOkVfdA3D7gO_IE">
@@ -169,7 +169,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
    <meta itemprop="headline" content="lolMiner: Command Line Arguments and Options">
    <meta itemprop="description" content="Command line argument is a parameter supplied to the program when it is invoked">
    <meta itemprop="datePublished" content="June 02, 2021">
-   <meta itemprop="dateModified" content="March 18, 2022"> 
+   <meta itemprop="dateModified" content="May 19, 2022"> 
    <div class="page__inner-wrap">
       <header>
 		 <h1 id="page-title" class="page__title" itemprop="headline">lolMiner  - command line arguments and options
@@ -205,6 +205,9 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <a href="#list-of-command-line-parameters">List of Command Line Parameters</a>
    <ul>
      <li>
+<a href="#overclock-options">Overclock Options</a>
+     </li>
+<li>
 <a href="#general">General</a>
      </li>
 <li>
@@ -241,7 +244,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
     coinzilla_display.push(c_display_preferences);
 </script>
 <h2 id="download">Download</h2>
-<p><a href="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.50/lolMiner_v1.50_Win64.zip" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Download Now</a></p>
+<p><a href="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.51/lolMiner_v1.51_Win64.zip" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Download Now</a></p>
 <h2 id="basic-parameters-in-command-line">Basic parameters in command line</h2>
 <p>There are three things lolMiner needs in any case to know to start mining, namely</p>
 <ul>
@@ -261,160 +264,120 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
      <th>Parameter
      </th>
 <th>Algorithm
-     </th>
-<th> 
  </th>
 </tr>
 </thead>
 <tbody>
    <tr>
-     <td> 
-     </td>
-<td>autol
+     <td>autol
      </td>
 <td>BeamHash I
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>BEAM-I
+     <td>BEAM-I
      </td>
 <td>BeamHash I
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>BEAM-II
+     <td>BEAM-II
      </td>
 <td>BeamHash II
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>BEAM-III
+     <td>BEAM-III
      </td>
 <td>BeamHash III
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>C29AE
+     <td>C29AE
      </td>
 <td>Cuckoo 29
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>C29D
+     <td>C29D
      </td>
 <td>CuckarooD 29
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>C29M
+     <td>C29M
      </td>
 <td>CuckarooM 29
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>C30CTX
+     <td>C30CTX
      </td>
 <td>Cuckaroo 30 Cortex
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>C31
+     <td>C31
      </td>
 <td>Cuckatoo 31
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>C32
+     <td>C32
      </td>
 <td>Cuckatoo 32
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>CR29-32
+     <td>CR29-32
      </td>
 <td>Cuckaroo 29-32
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>CR29-40
+     <td>CR29-40
      </td>
 <td>Cuckaroo 29-40
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>CR29-48
+     <td>CR29-48
      </td>
 <td>Cuckaroo 29-48
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>EQUI144_5
+     <td>EQUI144_5
      </td>
 <td>Equihash 144/5
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>EQUI192_7
+     <td>EQUI192_7
      </td>
 <td>Equihash 192/7
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>EQUI210_9
+     <td>EQUI210_9
      </td>
 <td>Equihash 210/9
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>ETCHASH
+     <td>ETCHASH
      </td>
 <td>Etchash
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>ETHASH
+     <td>ETHASH
      </td>
 <td>Ethash
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>ZEL
+     <td>ZEL
      </td>
 <td>ZelHash
 </td>
@@ -430,160 +393,120 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
      <th>Parameter
      </th>
 <th>Description
-     </th>
-<th> 
  </th>
 </tr>
 </thead>
 <tbody>
    <tr>
-     <td> 
-     </td>
-<td>AION
+     <td>AION
      </td>
 <td>Selecting Equihash 210/9 and right settings to mine Aion
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>AUTO144_5
+     <td>AUTO144_5
      </td>
 <td>Mine Equihash 144/5 and allow the pool to select the personalization
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>AUTO192_7
+     <td>AUTO192_7
      </td>
 <td>Mine Equihash 192/7 and allow the pool to select the personalization
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>BEAM
+     <td>BEAM
      </td>
 <td>Mine Beam and switch algorithm on Beam Hash II / III fork height
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>BTCZ
+     <td>BTCZ
      </td>
 <td>Mine Equihash 144/5 with personalization for BitcoinZ
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>BTG
+     <td>BTG
      </td>
 <td>Mine Equihash 144/5 with personalization for Bitcoin Gold
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>ETC
+     <td>ETC
      </td>
 <td>Select settings &amp; stratum to mine Ethereum Classic
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>ETH
+     <td>ETH
      </td>
 <td>Select settings  &amp; stratum to mine Ethereum
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>CTXC
+     <td>CTXC
      </td>
 <td>Select settings &amp; stratum to mine Cortex Ai
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>EXCC
+     <td>EXCC
      </td>
 <td>Select settings  &amp; stratum to mine Exchange Coin
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>GRIN-C29M
+     <td>GRIN-C29M
      </td>
 <td>Select settings &amp; stratum to mine Grin C29
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>GRIN-C32
+     <td>GRIN-C32
      </td>
 <td>Select settings &amp; stratum to mine Grin C32
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>MWC-C29D
+     <td>MWC-C29D
      </td>
 <td>Select settings &amp; stratum to mine MWC C29
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>MWC-C31
+     <td>MWC-C31
      </td>
 <td>Select settings &amp; stratum to mine MWC C31
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>XSG
+     <td>XSG
      </td>
 <td>Mine Equihash 144/5 with personalization for Snow Gem
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>YEC
+     <td>YEC
      </td>
 <td>Mine Equihash 192/7 with personalization for YCash
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>ZCL
+     <td>ZCL
      </td>
 <td>Mine Equihash 192/7 with personalization for Zclassic
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>ZEL
+     <td>ZEL
      </td>
 <td>Mine Zelhash &amp; stratum to mine FLUX (ZEL)
    </td>
 </tr>
 <tr>
-     <td> 
-     </td>
-<td>ZER
+     <td>ZER
      </td>
 <td>Mine Equihash 192/7 with personalization for Zero
 </td>
@@ -612,6 +535,26 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <p><a href="/assets/images/mining/mining_rig_995.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_995.jpg" alt="mining rig" loading="lazy" decoding="async"> </a></p>
 <p>Instead of <code class="language-plaintext highlighter-rouge">arg</code>, you need to substitute an argument.</p>
 <h2 id="list-of-command-line-parameters">List of Command Line Parameters</h2>
+<h3 id="overclock-options">Overclock Options</h3>
+<table>
+<thead>
+   <tr>
+     <th>Parameter
+     </th>
+<th>Description
+ </th>
+</tr>
+</thead>
+<tbody>
+   <tr>
+     <td>
+<code class="language-plaintext highlighter-rouge">--cclk arg (=*)</code>
+     </td>
+<td>The core clock used for the GPUs. Cards are separated with a comma. “*” can be used to skip a card.
+</td>
+</tr>
+</tbody>
+</table>
 <h3 id="general">General</h3>
 <ul>
  <li>
@@ -798,9 +741,9 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 	</script>
 	</div>
        <h2 class="h2 mb-4 pb-2">Download now</h2>
-       <p class="text-center mx-auto mb-4 pb-2">Latest version is 1.50<br>
+       <p class="text-center mx-auto mb-4 pb-2">Latest version is 1.51<br>
 File: *lolminer.exe, <br>
-<span class="break">SHA256: 3fb44554b7b6430a01bdb5654843e71a701a9eb328360b863f0b223bb43db639</span><br></p>
+<span class="break">SHA256: c79d33fca0eacfcba15942f9a130dec09e2a228d907fdfe6fd4cbc30a439f27c</span><br></p>
        <hr class="hr-light" style="width: 3rem;">
        <ul class="rating mt-4 pt-2 mb-1">
 <li>
@@ -820,8 +763,8 @@ File: *lolminer.exe, <br>
 </li>
 </ul>
        <p class="mb-4 pb-2"><small>Based on 3,400+ reviews</small></p>
-        <button type="button" class="front-but win"> <a href="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.50/lolMiner_v1.50_Win64.zip" target="_blank" rel="nofollow noopener">Download (windows)</a></button>
-				<button type="button" class="front-but lin"> <a href="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.50/lolMiner_v1.50_Lin64.tar.gz" rel="nofollow noopener" target="_blank">Download (linux)</a></button>
+        <button type="button" class="front-but win"> <a href="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.51/lolMiner_v1.51_Win64.zip" target="_blank" rel="nofollow noopener">Download (windows)</a></button>
+				<button type="button" class="front-but lin"> <a href="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.51/lolMiner_v1.51_Lin64.tar.gz" rel="nofollow noopener" target="_blank">Download (linux)</a></button>
      </div>
    </div>
  </section>
@@ -832,6 +775,26 @@ File: *lolminer.exe, <br>
    <div class="page__related">
      <h4 class="page__related-title">You may also enjoy</h4>
      <div class="grid__wrapper">
+<div class="grid__item">
+ <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+     <div class="archive__item-teaser">
+        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
+     </div>
+   <h2 class="archive__item-title" itemprop="headline">
+        <a href="/download/1.51/" rel="permalink">Download lolMiner 1.51 - NVIDIA+AMD GPU Miner [2022]
+</a>
+   </h2>
+     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  2 minute read
+</p>
+   <p class="archive__item-excerpt" itemprop="description">
+Get started with lolMiner
+		Version: 1.51
+		File: *lolminer.exe,  
+		SHA256: c79d33fca0eacfcba15942f9a130dec09e2a228d907fdfe6fd4cbc30a439f27c
+		(Dow...</p>
+ </article>
+</div>
 <div class="grid__item">
  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
      <div class="archive__item-teaser">
@@ -892,26 +855,6 @@ Get started with lolMiner
 		(Dow...</p>
  </article>
 </div>
-<div class="grid__item">
- <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-     <div class="archive__item-teaser">
-        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
-     </div>
-   <h2 class="archive__item-title" itemprop="headline">
-        <a href="/download/1.47/" rel="permalink">Download lolMiner 1.47 - NVIDIA+AMD GPU Miner [2022]
-</a>
-   </h2>
-     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  2 minute read
-</p>
-   <p class="archive__item-excerpt" itemprop="description">
-Get started with lolMiner
-		Version: 1.47
-		File: *lolminer.exe,  
-		SHA256: 887c3f90a4eddb0f4dd01ece079b5beed503d10bbc1381fc12e2f981d86b1672
-		(Dow...</p>
- </article>
-</div>
      </div>
    </div>
     <!-- post navigation footer -->
@@ -928,7 +871,7 @@ Get started with lolMiner
       <a href="/documentation" class="page__taxonomy-item" rel="tag">documentation</a>
     </span>
  </p>
-		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2022-03-18T00:00:00+00:00">18.03.2022</time></p>
+		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2022-05-19T00:00:00+00:00">19.05.2022</time></p>
      </footer>
      <section class="page__share">
    <h4 class="page__share-title">Share on</h4>
