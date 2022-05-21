@@ -1,6 +1,6 @@
 var store = [{
         "title": "LolMiner Setup Guide [2022]",
-        "excerpt":"You can use this list as a reference for all Launch Parameters supported by LolMiner.          You can download LolMiner 1.51 from here:   Download Now   Download (mirror)   Linux:  Under Linux you need to replace LolMiner.exe with ./LolMiner in the command-line examples below.   ","categories": ["documentation"],
+        "excerpt":"You can use this list as a reference for all Launch Parameters supported by LolMiner.          You can download LolMiner 1.51a from here:   Download Now   Download (mirror)   Linux:  Under Linux you need to replace LolMiner.exe with ./LolMiner in the command-line examples below.   ","categories": ["documentation"],
         "tags": ["LolMiner"],
         "url": "https://lolminer.site/documentation/setup/",
         "teaser": "https://lolminer.site/assets/images/thumbs/500x300.png"
