@@ -1,5 +1,5 @@
 var store = [{
-        "title": "Argumentos de la línea de comandos de LolMiner [2022]",
+        "title": "Argumentos de la línea de comandos de LolMiner [2023]",
         "excerpt":"You can use this list as a reference for all Launch Parameters supported by LolMiner.          You can download LolMiner 1.68 from here:   Download Now   Download (mirror)   Linux:  Under Linux you need to replace LolMiner.exe with ./LolMiner in the command-line examples below.   ","categories": ["documentation"],
         "tags": ["LolMiner"],
         "url": "https://lolminer.site/documentation/setup/",
