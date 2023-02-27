@@ -391,11 +391,11 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 </section>
 <h2 class="text-center">How To Use lolMiner</h2>
    <hr>
-   <p class="text-center">The Complete Guide How To Start Mining Ethereum with LolMiner.</p>
+   <p class="text-center">The Complete Guide How To Start Mining Ethereum Classic with LolMiner.</p>
    <div class="row align-items-center tim-vi" itemscope="itemscope" itemtype="http://schema.org/HowTo">
 	<meta itemprop="name" content="How to Use lolMiner">
        <div class="ytb-how">
-			<div class="youtube-player" data-id="tkez52mqK1E"></div>
+			<div class="youtube-player" data-id="h9CSki2Hph8"></div>
        </div>
        <ol class="step pl-0">
          <li class="step-element pb-0">
@@ -425,15 +425,10 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
               <span class="number">2</span> 
            </div>
            <div class="step-excerpt" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
-              <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Enter the following command:</span>
+              <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Enter the following command (Dual mining ETC+KASPA):</span>
 			 <div class="tim-row">
-			 <pre><code><span class="nev2 break" itemprop="text">setx GPU_FORCE_64BIT_PTR 0
-setx GPU_MAX_HEAP_SIZE 100
-setx GPU_USE_SYNC_OBJECTS 1
-setx GPU_MAX_ALLOC_PERCENT 100
-setx GPU_SINGLE_ALLOC_PERCENT 100</span>
-lolMiner.exe --algo ETHASH --pool ethash.poolbinance.com:8888 --user <span class="accent-txt">WALLET_ADDRESS</span>.worker_name --tls 0</code>
-</pre>
+			  <code><span class="" itemprop="text"></span>
+lolMiner.exe --algo ETCHASH --pool pool.woolypooly.com:35000 --user <span class="accent-txt" itemprop="text">ETC-WALLET_ADDRESS</span>.WORKER_NAME --dualmode KASPADUAL --dualpool pool.woolypooly.com:3112 --dualuser <span class="accent-txt" itemprop="text">KASPA-WALLET_ADDRESS</span>.WORKER_NAME</code>
            </div>
            </div>
          </li>
@@ -444,8 +439,11 @@ lolMiner.exe --algo ETHASH --pool ethash.poolbinance.com:8888 --user <span class
            <div class="step-excerpt" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
               <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Configure the miner with your settings</span>
 			 <div class="tim-row">
-<span class="accent-txt" itemprop="text">WALLET_ADDRESS</span> - enter <span class="accent-txt">YOUR</span> Ethereum wallet address or pool <span class="accent-txt">USERNAME</span> (this is how lolMiner knows where to deposit your ETH)
-		<span class="accent-txt">WORKER_NAME</span> – you can choose any name (like test), but don’t exaggerate: it should be 32 symbols max, contain only letters and numbers (no special characters like $%»*;@). <span class="tim-blu">Do not forget to specify your wallet address in all files!</span>
+<span class="accent-txt" itemprop="text">ETC-WALLET_ADDRESS</span> - enter <span class="accent-txt">YOUR</span> Ethereum Classic wallet address or pool <span class="accent-txt">WORKER_NAME</span> (this is how lolMiner knows where to deposit your coins).
+		<p><span class="accent-txt">WORKER_NAME</span> – you can choose any name (like test), but don’t exaggerate: it should be 32 symbols max, contain only letters and numbers (no special characters like $%»*;@). <span class="tim-blu">Do not forget to specify your wallet address in all files!</span></p>
+		<p class="bold">Example:<br>
+<code>lolMiner.exe --algo ETCHASH --pool pool.woolypooly.com:35000 --user 0x701C2963fa10C5A362a2C631221b3334F7018c85.WORKER_NAME --dualmode KASPADUAL --dualpool pool.woolypooly.com:3112 --dualuser kaspa:qrkqwe4kzpd8hv3l4fatgzyzj4l3yygrs2yqx4nvz08lsgzdpqc8zt302prna.WORKER_NAME</code>
+		</p>
 		</div>
            </div>
 		 </li>
@@ -515,8 +513,9 @@ File: *lolminer.exe, <br>
 <section class="tim-comm">
 <h2 class="my-title"><a id="start">Commands</a></h2>
 <div class="tim-vi2">
+<p class="notice--success"><a href="https://miningsoft.org/en/guide/ethw/" rel="nofollow noopener" target="_blank">Learn how to mine Ethpow</a>.</p>
 <p>Usage: <code>lolMiner.exe -command1 -command2 -command3</code></p>
-Example for Nicehash Ethereum:  
+Example for Nicehash Ethereum Classic:  
 <p class="notice--warning"><code>lolMiner.exe --algo ETHASH --pool daggerhashimoto.eu-west.nicehash.com:3353 --user 3HHG3zpxP4AmbKDR9iRy1c2bqAb4WKhNwm.worker --tls 0 --ethstratum ETHV1
 pause</code></p>
 <p class="bold">Full list of parameters:</p>
@@ -551,9 +550,9 @@ Example:
 <p><code>-p [ --pool ] arg</code> - sets pool URL and pool PORT. The following protocols are currently supported:
 </p>
 <ul>
-<li>ETHV1: EthereumStratum/1.0.0 (Nicehash)
+<li>ETHV1: Ethereum ClassicStratum/1.0.0 (Nicehash)
 </li>
-<li>ETHPROXY: Ethereum Proxy
+<li>ETHPROXY: Ethereum Classic Proxy
 </li>
 <li>TLS
 </li>
@@ -602,7 +601,7 @@ Example:<br>
 <link itemprop="contentUrl" content="https://www.youtube.com/embed/Ep-_zyvno5o">
 <h2 class="panel-title" itemprop="name" id="LHR unlock hashrates for all LHR GPUs! Lolminer with 3060,3060 ti,3070,3070 ti,3080,3080 ti">LHR unlock hashrates for all LHR GPUs! Lolminer with 3060,3060 ti,3070,3070 ti,3080,3080 ti</h2>
 <div itemprop="description">
-<p>In this video I test the new LHR unlocker from lolMiner on every LHR GPU. I show the new unlocked Ethereum mining hashrates for the RTX 3060 LHR, RTX 3060 Ti LHR, RTX 3070 LHR, RTX 3070 Ti, RTX 3080 LHR &amp; RTX 3080 Ti. This new version of lolMiner promises hashrates of up to 78% full hashrate on these GPUs. So I compare the hashrates for this new unlock on all the cards with the hashrate I got before to see just how big of a hashrate increase we would get. I also show you how to install this new version of lolMiner in HiveOS and how to set it up for mining Ethereum on LHR GPUs. In conclusion I would definintely say that, as of now, lolMiner is the best LHR unlocker in 2022. It gives the highest LHR unlock hashrate for all cards and even improves efficiency.</p>
+<p>In this video I test the new LHR unlocker from lolMiner on every LHR GPU. I show the new unlocked Ethereum Classic mining hashrates for the RTX 3060 LHR, RTX 3060 Ti LHR, RTX 3070 LHR, RTX 3070 Ti, RTX 3080 LHR &amp; RTX 3080 Ti. This new version of lolMiner promises hashrates of up to 78% full hashrate on these GPUs. So I compare the hashrates for this new unlock on all the cards with the hashrate I got before to see just how big of a hashrate increase we would get. I also show you how to install this new version of lolMiner in HiveOS and how to set it up for mining Ethereum Classic on LHR GPUs. In conclusion I would definintely say that, as of now, lolMiner is the best LHR unlocker in 2022. It gives the highest LHR unlock hashrate for all cards and even improves efficiency.</p>
 </div>
 <meta itemprop="uploadDate" content="2022-04-02">
 <meta itemprop="duration" content="PT11M12S">
@@ -658,7 +657,7 @@ Fan Speed (%):               85
 <link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/LgAr4Erm_4o">
 <link itemprop="contentUrl" content="https://www.youtube.com/embed/LgAr4Erm_4o">
 <h2 class="bold" itemprop="name" id="How the 100% LHR unlocker works (lolMiner interview)">How the 100% LHR unlocker works (lolMiner interview)</h2>
-<div itemprop="description"><p>In this video Lolliedieb, the developer of lolMiner, about how the 100% LHR unlock was possible. He explains in detail exactly how the full LHR unlock for mining Ethereum at full hashrate on LHR cards work, and how it was first discovered. He also tells me about how there actually seems to be more than one way of doing the full unlock and that from what he’s seen different miners (like NBminer &amp; T-Rex miner) might actually be using slightly different approaches to achieve the 100% LHR unlock. We then talk about how in the latest version of lolMiner, the 100% LHR unlocker also works to give us full hashrate for dual mining Ethereum &amp; Alephium and that it also works for other coins like Ergo mining which was previously also affected by LHR.</p></div>
+<div itemprop="description"><p>In this video Lolliedieb, the developer of lolMiner, about how the 100% LHR unlock was possible. He explains in detail exactly how the full LHR unlock for mining Ethereum Classic at full hashrate on LHR cards work, and how it was first discovered. He also tells me about how there actually seems to be more than one way of doing the full unlock and that from what he’s seen different miners (like NBminer &amp; T-Rex miner) might actually be using slightly different approaches to achieve the 100% LHR unlock. We then talk about how in the latest version of lolMiner, the 100% LHR unlocker also works to give us full hashrate for dual mining Ethereum Classic &amp; Alephium and that it also works for other coins like Ergo mining which was previously also affected by LHR.</p></div>
 <meta itemprop="uploadDate" content="2022-05-12">
 <meta itemprop="duration" content="PT18M19S">
 <div class="youtube-player" data-id="LgAr4Erm_4o"></div>
@@ -688,18 +687,18 @@ Use templates (.bat files examples) to apply a predefined configuration to one o
 <section class="tim-faq">
 <div class="tim-title"><a id="FAQ">FAQ</a></div>
 	<div class="tim-vi2">
-	<p class="tim-st">How does Ethereum mining work?</p>
-The result of digital mining is called proof of work system. ... However, mining Ethereum means more than increasing the volume of Ether in circulation. It is also necessary for securing the Ethereum network as it creates, verifies, publishes, and propagates blocks in the blockchain.
-	<p class="tim-st">What do you need to mine Ethereum?</p>
+	<p class="tim-st">How does Ethereum Classic mining work?</p>
+The result of digital mining is called proof of work system. ... However, mining Ethereum Classic means more than increasing the volume of Ether in circulation. It is also necessary for securing the Ethereum Classic network as it creates, verifies, publishes, and propagates blocks in the blockchain.
+	<p class="tim-st">What do you need to mine Ethereum Classic?</p>
 		<ol>
-			<li>An Ethereum wallet to hold all of your newly found currency;
+			<li>An Ethereum Classic wallet to hold all of your newly found currency;
 			<li>GPU drivers;
 			<li>A mining application (LolMiner AMD GPU Miner);
 			<li>A mining pool address if you're going to mine within a mining pool;
 			<li>A graphics card (GPU) with at least 4gb of RAM.
 		</ol>
-	<p class="tim-st">How many Ethereum can be mined?</p>
-	Most Ethereum blocks are around 2mb. A new Ethereum block is created every 14 seconds. 18 Million Ether are mined every year.
+	<p class="tim-st">How many Ethereum Classic can be mined?</p>
+	Most Ethereum Classic blocks are around 2mb. A new Ethereum Classic block is created every 14 seconds. 18 Million Ether are mined every year.
 	</div>
 </section>
 -->

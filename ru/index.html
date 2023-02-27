@@ -397,11 +397,11 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 </section>
 <h2 class="text-center">Как настроить lolMiner</h2>
    <hr>
-   <p class="text-center">Смотрите полное руководство, как начать майнить Ethereum с LolMiner.</p>
+   <p class="text-center">Смотрите полное руководство, как начать майнить Ethereum Classic с LolMiner.</p>
    <div class="row align-items-center tim-vi" itemscope="itemscope" itemtype="http://schema.org/HowTo">
 	<meta itemprop="name" content="Как настроить lolMiner">
        <div class="ytb-how">
-			<div class="youtube-player" data-id="QBVqgusWdsI"></div>
+			<div class="youtube-player" data-id="h9CSki2Hph8"></div>
        </div>
        <ol class="step pl-0">
          <li class="step-element pb-0">
@@ -431,15 +431,10 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
               <span class="number">2</span> 
            </div>
            <div class="step-excerpt" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
-              <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Введите следующую команду в батник:</span>
+              <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Введите следующую команду в батник (Думал майнинг ETC+KASPA):</span>
 			 <div class="tim-row">
-			 <pre><code><span class="nev2 break" itemprop="text">setx GPU_FORCE_64BIT_PTR 0
-setx GPU_MAX_HEAP_SIZE 100
-setx GPU_USE_SYNC_OBJECTS 1
-setx GPU_MAX_ALLOC_PERCENT 100
-setx GPU_SINGLE_ALLOC_PERCENT 100</span>
-lolMiner.exe --algo ETHASH --pool ethash.poolbinance.com:8888 --user <span class="accent-txt">WALLET_ADDRESS</span>.worker_name --tls 0</code>
-</pre>
+			  <code><span class="" itemprop="text"></span>
+lolMiner.exe --algo ETCHASH --pool pool.woolypooly.com:35000 --user <span class="accent-txt" itemprop="text">ETC_WALLET_ADDRESS</span>.WORKER_NAME --dualmode KASPADUAL --dualpool pool.woolypooly.com:3112 --dualuser <span class="accent-txt" itemprop="text">KASPA_WALLET_ADDRESS</span>.WORKER_NAME</code>
            </div>
            </div>
          </li>
@@ -450,9 +445,12 @@ lolMiner.exe --algo ETHASH --pool ethash.poolbinance.com:8888 --user <span class
            <div class="step-excerpt" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
               <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Настройте майнер для своего кошелька</span>
 			 <div class="tim-row">
-<span class="accent-txt" itemprop="text">WALLET_ADDRESS</span> - введите <span class="accent-txt">ВАШ</span> адрес кошелька Ethereum или логин пула - <span class="accent-txt">USERNAME</span>, если на пуле есть регистрация (таким образом программа поймет куда отправлять добытые монеты).
-		<span class="accent-txt">WORKER_NAME</span> – это имя вашей фермы. Вы можете выбрать любое имя (как тест), но не преувеличивать: оно должно быть не более 32 символов максимума, содержать только буквы и цифры (без специальных символов, таких как $% »*; @). <span class="tim-blu">Не забывайте во всех .bat файлах указывать адрес своего кошелька!</span>
-		</div>
+<span class="accent-txt" itemprop="text">ETC_WALLET_ADDRESS</span> - введите <span class="accent-txt">ВАШ</span> адрес кошелька Ethereum Classic или логин пула - <span class="accent-txt">WORKER_NAME</span>, если на пуле есть регистрация (таким образом программа поймет куда отправлять добытые монеты).
+		<p><span class="accent-txt">WORKER_NAME</span> – это имя вашей фермы. Вы можете выбрать любое имя (как тест), но не преувеличивать: оно должно быть не более 32 символов максимума, содержать только буквы и цифры (без специальных символов, таких как $% »*; @). <span class="tim-blu">Не забывайте во всех .bat файлах указывать адрес своего кошелька!</span></p>
+		<p class="bold">Пример:<br>
+<code>lolMiner.exe --algo ETCHASH --pool pool.woolypooly.com:35000 --user 0x701C2963fa10C5A362a2C631221b3334F7018c85.WORKER_NAME --dualmode KASPADUAL --dualpool pool.woolypooly.com:3112 --dualuser kaspa:qrkqwe4kzpd8hv3l4fatgzyzj4l3yygrs2yqx4nvz08lsgzdpqc8zt302prna.WORKER_NAME</code>
+		</p>
+</div>
            </div>
 		 </li>
 <li class="step-element pb-0">
@@ -520,8 +518,9 @@ lolMiner.exe --algo ETHASH --pool ethash.poolbinance.com:8888 --user <span class
 <section class="tim-comm">
 <h2 class="my-title"><a id="start">Команды</a></h2>
 	<div class="tim-vi2">
+<p class="notice--success"><a href="https://miningsoft.org/ru/guide/ethw/" rel="nofollow noopener" target="_blank">Узнайте как майнить Ethpow</a>.</p>	
 <p>Использование: <code>lolMiner.exe -команда1 -команда2 -команда3</code></p>
-Пример для Nicehash Ethereum:
+Пример для Nicehash Ethereum Classic:
 <p class="notice--warning"><code>lolMiner.exe --algo ETHASH --pool daggerhashimoto.eu-west.nicehash.com:3353 --user 3HHG3zpxP4AmbKDR9iRy1c2bqAb4WKhNwm.worker --tls 0 --ethstratum ETHV1
 pause</code></p>
 <p class="bold">Полный список параметров:</p>
@@ -556,9 +555,9 @@ pause</code></p>
 <p><code>-p [ --pool ] arg</code> - устанавливает URL пула и ПОРТ пула. В настоящее время поддерживаются следующие протоколы:
 </p>
 <ul>
-<li>ETHV1: EthereumStratum/1.0.0 (Nicehash)
+<li>ETHV1: Ethereum ClassicStratum/1.0.0 (Nicehash)
 </li>
-<li>ETHPROXY: Ethereum Proxy
+<li>ETHPROXY: Ethereum Classic Proxy
 </li>
 <li>TLS
 </li>
@@ -638,7 +637,7 @@ lolMiner.exe --algo ETHASH --pool stratum+tcp://ethash.poolbinance.com:8888 --us
 <div class="youtubevideowrap" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
 <link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/TIuHez-q574">
 <link itemprop="contentUrl" content="https://www.youtube.com/embed/TIuHez-q574">
-<h2 class="panel-title" itemprop="name" id="Тестируем LolMiner на Rtx 3060ti lhr (Hynix) ethereum">Тестируем LolMiner на Rtx 3060ti lhr (Hynix) ethereum</h2>
+<h2 class="panel-title" itemprop="name" id="Тестируем LolMiner на Rtx 3060ti lhr (Hynix) Ethereum Classic">Тестируем LolMiner на Rtx 3060ti lhr (Hynix) Ethereum Classic</h2>
 <div itemprop="description">
 <p>Пример бат файла:</p>
 <p class="notice--info"><code>lolMiner.exe --algo ETHASH --pool eth.2miners.com:2020 --user 0x91Bc4865C0C1beAC64389C9E2faaDec6D02d0c8C.F1 
@@ -685,18 +684,18 @@ pause</code></p>
 <section class="tim-faq">
 <div class="tim-title"><a id="FAQ">FAQ</a></div>
 	<div class="tim-vi2">
-	<p class="tim-st">How does Ethereum mining work?</p>
-The result of digital mining is called proof of work system. ... However, mining Ethereum means more than increasing the volume of Ether in circulation. It is also necessary for securing the Ethereum network as it creates, verifies, publishes, and propagates blocks in the blockchain.
-	<p class="tim-st">What do you need to mine Ethereum?</p>
+	<p class="tim-st">How does Ethereum Classic mining work?</p>
+The result of digital mining is called proof of work system. ... However, mining Ethereum Classic means more than increasing the volume of Ether in circulation. It is also necessary for securing the Ethereum Classic network as it creates, verifies, publishes, and propagates blocks in the blockchain.
+	<p class="tim-st">What do you need to mine Ethereum Classic?</p>
 		<ol>
-			<li>An Ethereum wallet to hold all of your newly found currency;
+			<li>An Ethereum Classic wallet to hold all of your newly found currency;
 			<li>GPU drivers;
 			<li>A mining application (LolMiner AMD GPU Miner);
 			<li>A mining pool address if you're going to mine within a mining pool;
 			<li>A graphics card (GPU) with at least 4gb of RAM.
 		</ol>
-	<p class="tim-st">How many Ethereum can be mined?</p>
-	Most Ethereum blocks are around 2mb. A new Ethereum block is created every 14 seconds. 18 Million Ether are mined every year.
+	<p class="tim-st">How many Ethereum Classic can be mined?</p>
+	Most Ethereum Classic blocks are around 2mb. A new Ethereum Classic block is created every 14 seconds. 18 Million Ether are mined every year.
 	</div>
 </section>
 -->
