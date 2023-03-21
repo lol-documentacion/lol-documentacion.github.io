@@ -2,9 +2,18 @@
 <urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lolminer.site/ru/download/1.71/</loc>
+    
+    <lastmod>2023-03-21T00:00:00-04:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>https://lolminer.site/ru/download/1.70/</loc>
     
-    <lastmod>2023-03-10T00:00:00-05:00</lastmod>
+    <lastmod>2023-03-10T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -13,7 +22,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.69/</loc>
     
-    <lastmod>2023-03-04T00:00:00-05:00</lastmod>
+    <lastmod>2023-03-04T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -22,7 +31,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.68/</loc>
     
-    <lastmod>2023-02-27T00:00:00-05:00</lastmod>
+    <lastmod>2023-02-27T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -31,7 +40,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.67/</loc>
     
-    <lastmod>2023-02-10T00:00:00-05:00</lastmod>
+    <lastmod>2023-02-10T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -40,7 +49,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.66/</loc>
     
-    <lastmod>2023-01-28T00:00:00-05:00</lastmod>
+    <lastmod>2023-01-28T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -49,7 +58,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.64/</loc>
     
-    <lastmod>2022-12-09T00:00:00-05:00</lastmod>
+    <lastmod>2022-12-09T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -58,7 +67,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.61/</loc>
     
-    <lastmod>2022-10-19T00:00:00-05:00</lastmod>
+    <lastmod>2022-10-19T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -67,7 +76,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.60/</loc>
     
-    <lastmod>2022-10-09T00:00:00-05:00</lastmod>
+    <lastmod>2022-10-09T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -76,7 +85,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.59a/</loc>
     
-    <lastmod>2022-09-25T00:00:00-05:00</lastmod>
+    <lastmod>2022-09-25T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -85,7 +94,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.57/</loc>
     
-    <lastmod>2022-09-15T00:00:00-05:00</lastmod>
+    <lastmod>2022-09-15T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -94,7 +103,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.56/</loc>
     
-    <lastmod>2022-09-13T00:00:00-05:00</lastmod>
+    <lastmod>2022-09-13T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -103,7 +112,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.55/</loc>
     
-    <lastmod>2022-09-02T00:00:00-05:00</lastmod>
+    <lastmod>2022-09-02T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -112,7 +121,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.54/</loc>
     
-    <lastmod>2022-08-10T00:00:00-05:00</lastmod>
+    <lastmod>2022-08-10T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -121,7 +130,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.53/</loc>
     
-    <lastmod>2022-07-20T00:00:00-05:00</lastmod>
+    <lastmod>2022-07-20T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -130,7 +139,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.52a/</loc>
     
-    <lastmod>2022-06-28T00:00:00-05:00</lastmod>
+    <lastmod>2022-06-28T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -139,7 +148,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.52/</loc>
     
-    <lastmod>2022-06-23T00:00:00-05:00</lastmod>
+    <lastmod>2022-06-23T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -148,7 +157,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.51a/</loc>
     
-    <lastmod>2022-05-21T00:00:00-05:00</lastmod>
+    <lastmod>2022-05-21T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -157,7 +166,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.51/</loc>
     
-    <lastmod>2022-05-19T00:00:00-05:00</lastmod>
+    <lastmod>2022-05-19T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -166,7 +175,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.50/</loc>
     
-    <lastmod>2022-05-12T00:00:00-05:00</lastmod>
+    <lastmod>2022-05-12T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -175,7 +184,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.49/</loc>
     
-    <lastmod>2022-05-07T00:00:00-05:00</lastmod>
+    <lastmod>2022-05-07T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -184,7 +193,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.48/</loc>
     
-    <lastmod>2022-04-01T00:00:00-05:00</lastmod>
+    <lastmod>2022-04-01T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -193,7 +202,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.47/</loc>
     
-    <lastmod>2022-03-30T00:00:00-05:00</lastmod>
+    <lastmod>2022-03-30T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -202,7 +211,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.46a/</loc>
     
-    <lastmod>2022-02-22T00:00:00-05:00</lastmod>
+    <lastmod>2022-02-22T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -211,7 +220,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.46/</loc>
     
-    <lastmod>2022-02-21T00:00:00-05:00</lastmod>
+    <lastmod>2022-02-21T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -220,7 +229,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.45/</loc>
     
-    <lastmod>2022-02-15T00:00:00-05:00</lastmod>
+    <lastmod>2022-02-15T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -229,7 +238,7 @@
   <url>
     <loc>https://lolminer.site/ru/documentation/dual/</loc>
     
-    <lastmod>2022-02-08T00:00:00-05:00</lastmod>
+    <lastmod>2022-02-08T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -238,7 +247,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.44/</loc>
     
-    <lastmod>2022-02-04T00:00:00-05:00</lastmod>
+    <lastmod>2022-02-04T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -247,7 +256,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.43/</loc>
     
-    <lastmod>2022-02-04T00:00:00-05:00</lastmod>
+    <lastmod>2022-02-04T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -256,7 +265,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.42/</loc>
     
-    <lastmod>2022-01-10T00:00:00-05:00</lastmod>
+    <lastmod>2022-01-10T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -265,7 +274,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.41b/</loc>
     
-    <lastmod>2022-01-07T00:00:00-05:00</lastmod>
+    <lastmod>2022-01-07T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -274,7 +283,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.40/</loc>
     
-    <lastmod>2022-01-06T00:00:00-05:00</lastmod>
+    <lastmod>2022-01-06T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -283,7 +292,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.39/</loc>
     
-    <lastmod>2021-12-31T00:00:00-05:00</lastmod>
+    <lastmod>2021-12-31T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -292,7 +301,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.38/</loc>
     
-    <lastmod>2021-12-03T00:00:00-05:00</lastmod>
+    <lastmod>2021-12-03T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -301,7 +310,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.37/</loc>
     
-    <lastmod>2021-11-29T00:00:00-05:00</lastmod>
+    <lastmod>2021-11-29T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -310,7 +319,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.36a/</loc>
     
-    <lastmod>2021-11-16T00:00:00-05:00</lastmod>
+    <lastmod>2021-11-16T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -319,7 +328,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.36/</loc>
     
-    <lastmod>2021-11-15T00:00:00-05:00</lastmod>
+    <lastmod>2021-11-15T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -328,7 +337,7 @@
   <url>
     <loc>https://lolminer.site/ru/articles/damien-11-14/</loc>
     
-    <lastmod>2021-11-14T00:00:00-05:00</lastmod>
+    <lastmod>2021-11-14T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -337,7 +346,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.35/</loc>
     
-    <lastmod>2021-11-07T00:00:00-05:00</lastmod>
+    <lastmod>2021-11-07T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -346,7 +355,7 @@
   <url>
     <loc>https://lolminer.site/ru/articles/usd-11-04/</loc>
     
-    <lastmod>2021-11-04T00:00:00-05:00</lastmod>
+    <lastmod>2021-11-04T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -355,7 +364,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.34a/</loc>
     
-    <lastmod>2021-11-02T00:00:00-05:00</lastmod>
+    <lastmod>2021-11-02T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -364,7 +373,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.34/</loc>
     
-    <lastmod>2021-10-30T00:00:00-05:00</lastmod>
+    <lastmod>2021-10-30T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -373,7 +382,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.33/</loc>
     
-    <lastmod>2021-10-03T00:00:00-05:00</lastmod>
+    <lastmod>2021-10-03T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -382,7 +391,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.32a/</loc>
     
-    <lastmod>2021-09-14T00:00:00-05:00</lastmod>
+    <lastmod>2021-09-14T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -391,7 +400,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/latest/</loc>
     
-    <lastmod>2021-09-14T00:00:00-05:00</lastmod>
+    <lastmod>2021-09-14T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -400,7 +409,7 @@
   <url>
     <loc>https://lolminer.site/ru/articles/cbdc-09-12/</loc>
     
-    <lastmod>2021-09-12T00:00:00-05:00</lastmod>
+    <lastmod>2021-09-12T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -409,7 +418,7 @@
   <url>
     <loc>https://lolminer.site/ru/articles/uoll-street-07-21/</loc>
     
-    <lastmod>2021-07-21T00:00:00-05:00</lastmod>
+    <lastmod>2021-07-21T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -418,7 +427,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.31/</loc>
     
-    <lastmod>2021-07-14T00:00:00-05:00</lastmod>
+    <lastmod>2021-07-14T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -427,7 +436,7 @@
   <url>
     <loc>https://lolminer.site/ru/documentation/arguments/</loc>
     
-    <lastmod>2021-06-02T00:00:00-05:00</lastmod>
+    <lastmod>2021-06-02T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -436,7 +445,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/1.29/</loc>
     
-    <lastmod>2021-05-29T00:00:00-05:00</lastmod>
+    <lastmod>2021-05-29T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -445,7 +454,7 @@
   <url>
     <loc>https://lolminer.site/ru/documentation/setup/</loc>
     
-    <lastmod>2021-05-29T00:00:00-05:00</lastmod>
+    <lastmod>2021-05-29T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -458,7 +467,7 @@
   <url>
     <loc>https://lolminer.site/ru/about/</loc>
       
-        <lastmod>2023-03-10T11:52:28-05:00</lastmod>
+        <lastmod>2023-03-21T14:15:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -470,7 +479,7 @@
   <url>
     <loc>https://lolminer.site/ru/legal/cookie/</loc>
       
-        <lastmod>2023-03-10T11:52:28-05:00</lastmod>
+        <lastmod>2023-03-21T14:15:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -482,7 +491,7 @@
   <url>
     <loc>https://lolminer.site/ru/legal/disclaimer/</loc>
       
-        <lastmod>2023-03-10T11:52:28-05:00</lastmod>
+        <lastmod>2023-03-21T14:15:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -494,7 +503,7 @@
   <url>
     <loc>https://lolminer.site/ru/</loc>
       
-        <lastmod>2023-03-10T11:52:28-05:00</lastmod>
+        <lastmod>2023-03-21T14:15:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -518,7 +527,7 @@
   <url>
     <loc>https://lolminer.site/ru/legal/privacy/</loc>
       
-        <lastmod>2023-03-10T11:52:28-05:00</lastmod>
+        <lastmod>2023-03-21T14:15:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -532,7 +541,7 @@
   <url>
     <loc>https://lolminer.site/ru/legal/terms/</loc>
       
-        <lastmod>2023-03-10T11:52:28-05:00</lastmod>
+        <lastmod>2023-03-21T14:15:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -544,7 +553,7 @@
   <url>
     <loc>https://lolminer.site/ru/articles/</loc>
       
-        <lastmod>2023-03-10T11:52:28-05:00</lastmod>
+        <lastmod>2023-03-21T14:15:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -556,7 +565,7 @@
   <url>
     <loc>https://lolminer.site/ru/blog/</loc>
       
-        <lastmod>2023-03-10T11:52:28-05:00</lastmod>
+        <lastmod>2023-03-21T14:15:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -568,7 +577,7 @@
   <url>
     <loc>https://lolminer.site/ru/documentation/</loc>
       
-        <lastmod>2023-03-10T11:52:28-05:00</lastmod>
+        <lastmod>2023-03-21T14:15:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -580,7 +589,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/</loc>
       
-        <lastmod>2023-03-10T11:52:28-05:00</lastmod>
+        <lastmod>2023-03-21T14:15:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -592,7 +601,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/page2/</loc>
       
-        <lastmod>2023-03-10T11:52:28-05:00</lastmod>
+        <lastmod>2023-03-21T14:15:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -604,7 +613,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/page3/</loc>
       
-        <lastmod>2023-03-10T11:52:28-05:00</lastmod>
+        <lastmod>2023-03-21T14:15:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -616,7 +625,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/page4/</loc>
       
-        <lastmod>2023-03-10T11:52:28-05:00</lastmod>
+        <lastmod>2023-03-21T14:15:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -628,7 +637,7 @@
   <url>
     <loc>https://lolminer.site/ru/download/page5/</loc>
       
-        <lastmod>2023-03-10T11:52:28-05:00</lastmod>
+        <lastmod>2023-03-21T14:15:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -640,7 +649,7 @@
   <url>
     <loc>https://lolminer.site/ru/video/</loc>
       
-        <lastmod>2023-03-10T11:52:28-05:00</lastmod>
+        <lastmod>2023-03-21T14:15:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
